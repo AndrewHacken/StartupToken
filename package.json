@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Bootstrap 4 Web Application",
   "scripts": {
-    "start": "node node_modules/http-server/bin/http-server -o"
+    "start": "node node_modules/http-server/bin/http-server html"
   },
   "keywords": [],
   "repository": "",
