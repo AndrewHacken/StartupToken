@@ -3,12 +3,15 @@
 #### Install gcloud: 
 https://cloud.google.com/sdk/install
 #### Run gcloud init to initialize the gcloud environment:
-```gcloud init
+```
+gcloud init
 ```
 #### Login and set project:
-```gcloud auth login
 ```
-```gcloud config set project startuptoken-217112
+gcloud auth login
+```
+```
+gcloud config set project startuptoken-217112
 ```
 
 ## Test project:
@@ -17,5 +20,6 @@ https://cloud.google.com/sdk/install
 3. Go to localhost:8080
 
 ## Deploy the app:
-```gcloud app deploy app.yaml
+```
+gcloud app deploy app.yaml
 ```
