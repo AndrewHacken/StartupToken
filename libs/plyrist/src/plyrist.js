@@ -2,8 +2,8 @@
  * 0.0.1
  * playlist for plyr
  * 
- * @ blackui.com All Rights Reserved.
- * Author url: blackui.com
+ * All Rights Reserved.
+
  */
 
 window.Plyrist = {};

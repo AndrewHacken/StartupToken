@@ -15,13 +15,19 @@
   <!-- endbuild -->
 </head>
 
-<body class="layout-column">
+<body class="layout-column  pace-done">
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
   <div id="main" class="layout-row flex">
     <!-- ############ Aside START-->
     <div id="aside" class="page-sidenav box-shadow">
       <div class="sidenav d-flex h-100">
         <div class="p-3 b-b">
-          <a href="../index.html" class="text-md m-0">StartupToken&nbsp;</a> <small class="text-muted">docs 1.0.0 </small>
+          <a href="../index.html" class="text-md m-0">StartupToken&nbsp;</a> <small class="text-muted">docs 1.0.1</small>
         </div>
         <nav class="nav-active-text-primary mt-2 flex">
           <ul class="nav" data-nav="">
@@ -40,7 +46,7 @@
                 <span class="nav-text">Personas</span>
               </a>
             </li>
-            <li>
+            <li class="active">
               <a href="journey.html">
                 <span class="nav-text">User Journey</span>
               </a>
@@ -58,7 +64,7 @@
           </ul>
         </nav>
         <div class="p-3 text-muted b-t">
-          <small>© Copyright. blackui.com</small>
+          <small>© Copyright. </small>
         </div>
       </div>
     </div>
@@ -67,20 +73,21 @@
     <div id="content" class="flex ">
       <!-- ############ Main START-->
       <div class="padding">
-        <h2>Get started</h2>
-        <p>Prototype based on Bootstrap 4&nbsp;</p>
+        <h2>Personas</h2>
+        <p>Our personas right if we can find same people on the street and they will buy our product.&nbsp;</p>
         <hr>
         <p>This section is for personas. Users, their preferences and motivation to use StartupToken platform.</p>
       </div>
       <ul class="nav nav-tabs">
-        <li class="nav-item"> <a href="" class="active nav-link" data-toggle="tab" data-target="#tabone">User A</a> </li>
-        <li class="nav-item"> <a href="" class="nav-link" data-toggle="tab" data-target="#tabtwo">User B</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="" data-toggle="tab" data-target="#tabthree">User C</a> </li>
-        <li class="nav-item"> <a href="" class="nav-link" data-toggle="tab" data-target="#tabfour">User D</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="" data-target="#tabfive" data-toggle="tab">User E</a> </li>
+        <li class="nav-item"> <a href="" class="nav-link" data-toggle="tab" data-target="#tabone">Professional</a> </li>
+        <li class="nav-item"> <a href="" class="nav-link" data-toggle="tab" data-target="#tabtwo">Investor</a> </li>
+        <li class="nav-item"> <a href="" class="nav-link" data-toggle="tab" data-target="#tabthree">Entepreneur</a> </li>
+        <li class="nav-item"> <a href="" class="nav-link active show" data-toggle="tab" data-target="#tabfour">Startup</a> </li>
+        <li class="nav-item"> <a href="" class="nav-link" data-toggle="tab" data-target="#tabfive">Enthusiast</a> </li>
       </ul>
       <div class="tab-content mt-2">
-        <div class="tab-pane fade show active" id="tabone" role="tabpanel">
+        <!-- Tab one-->
+        <div class="tab-pane fade" id="tabone" role="tabpanel">
           <p class="">Professional in the space<br>both investor and entrepeneur&nbsp;<br><br>come to share and network<br><br>Discuss &amp; beer&nbsp;<br>discuss investment opportunities&nbsp;<br>discuss new ventures<br>&nbsp;Invest seed&nbsp;<br>Educate, Syndicate Market mak</p>
           <div class="row">
             <div class="col-md-4">
@@ -162,83 +169,371 @@
             </div>
           </div>
         </div>
+        <!-- Tab two-->
         <div class="tab-pane fade" id="tabtwo" role="tabpanel">
           <p class="">Investor (pro)<br>&nbsp;VC funds/ exchange&nbsp;<br>Come to find curated list&nbsp;<br><br>Discuss &amp; beer&nbsp;<br>discuss new ventures&nbsp;<br>invest seed Syndicate,&nbsp;<br>market making</p>
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Background:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Name</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Challenges:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Demographics:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"><img class="img-fluid d-block" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Common Objections:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Goals:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Motivation:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Biggest Fears:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- Tab three-->
         <div class="tab-pane fade" id="tabthree" role="tabpanel">
           <p class="">Succesful entrepeneur&nbsp;<br>Startup Founder&nbsp;<br>Come for partnership &amp; customer&nbsp;<br><br>Network&nbsp;<br>Get Round B&nbsp;<br>Partners&nbsp;<br>joint venture&nbsp;<br>grow his community, educate</p>
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Background:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Name</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Challenges:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Demographics:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"><img class="img-fluid d-block" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Common Objections:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Goals:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Motivation:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Biggest Fears:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Some quick example text to build on the card title .</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="tabfour" role="tabpanel">
-          <p class="">Startup&nbsp;<br>Early project&nbsp;<br><br>come to launch project&nbsp;<br><br>Get advisoring &amp; mentoring&nbsp;<br>Understand what look for growth hacking&nbsp;<br>compare strategy &amp; partn.&nbsp;<br>get feedback</p>
+        <!-- Tab four-->
+        <div class="tab-pane fade active show" id="tabfour" role="tabpanel">
+          <p contenteditable="true" class="my-5">Startup -&nbsp;Early project which want to be a big enterprise and deliver the best products to their customers.&nbsp;<br></p>
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Matilda</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <p>Founder</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Demographics:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <li>Age: 28-35</li>
+                  <li>Femail</li>
+                  <li>Married, no kids</li>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"><img class="img-fluid d-block" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg"></div>
           </div>
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Background:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <li>Experience in sturtup area for 5 years</li>
+                  <li>Experience in leading small and medium groups of people </li>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Common Objections:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <li>Why do we have to use an old approach if we can create the new one</li>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Challenges:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <li>overcome fear</li>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Goals:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <div>
+                    <li> improve peoples life with the idea of the project </li>
+                    <li> find the best team for the project delivery </li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Motivation:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <li>like to create new things</li>
+                  <li>don't want to work for someone else</li>
+                  <li>want to bring something valuable for the world</li>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Biggest Fears:</h4>
+                  <h6 class="text-muted">Subtitle</h6>
+                  <li>the idea wouldn't find a support from users</li>
+                  <li>difficulty of all the steps on the way from idea to ICO</li>
+                  <li>someone will steal an idea</li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Tab five-->
+          <div class="tab-pane fade" id="tabfive" role="tabpanel">
+            <p class="">Crypto enthusiast&nbsp;<br>small invest. student, etc.&nbsp;<br><br>Come to meet projects E<br>&nbsp;get testimonials&nbsp;<br>get invt stategy advice&nbsp;<br>try or join&nbsp;<br>get information &amp; trust&nbsp;<br>start venture, syndicate</p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Background:</h4>
+                    <h6 class="text-muted">Subtitle</h6>
+                    <p>Some quick example text to build on the card title .</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Name</h4>
+                    <h6 class="text-muted">Subtitle</h6>
+                    <p>Some quick example text to build on the card title .</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Challenges:</h4>
+                    <h6 class="text-muted">Subtitle</h6>
+                    <p>Some quick example text to build on the card title .</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Demographics:</h4>
+                    <h6 class="text-muted">Subtitle</h6>
+                    <p>Some quick example text to build on the card title .</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4"><img class="img-fluid d-block" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg"></div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Common Objections:</h4>
+                    <h6 class="text-muted">Subtitle</h6>
+                    <p>Some quick example text to build on the card title .</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Goals:</h4>
+                    <h6 class="text-muted">Subtitle</h6>
+                    <p>Some quick example text to build on the card title .</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Motivation:</h4>
+                    <h6 class="text-muted">Subtitle</h6>
+                    <p>Some quick example text to build on the card title .</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h4>Biggest Fears:</h4>
+                    <h6 class="text-muted">Subtitle</h6>
+                    <p>Some quick example text to build on the card title .</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- ############ Main END-->
       </div>
-      <!-- ############ Main END-->
+      <!-- ############ Content END-->
     </div>
-    <!-- ############ Content END-->
+    <!-- build:js ../assets/js/site.min.js -->
+    <!-- jQuery -->
+    <script src="../libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- ajax page -->
+    <script src="../libs/pace-progress/pace.min.js"></script>
+    <script src="../libs/pjax/pjax.js"></script>
+    <script src="../assets/js/ajax.js"></script>
+    <!-- lazyload plugin -->
+    <script src="../assets/js/lazyload.config.js"></script>
+    <script src="../assets/js/lazyload.js"></script>
+    <script src="../assets/js/plugin.js"></script>
+    <!-- theme -->
+    <script src="../assets/js/theme.js"></script>
+    <!-- endbuild -->
+    <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
   </div>
-  <!-- build:js ../assets/js/site.min.js -->
-  <!-- jQuery -->
-  <script src="../libs/jquery/dist/jquery.min.js"></script>
-  <!-- Bootstrap -->
-  <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
-  <!-- ajax page -->
-  <script src="../libs/pace-progress/pace.min.js"></script>
-  <script src="../libs/pjax/pjax.js"></script>
-  <script src="../assets/js/ajax.js"></script>
-  <!-- lazyload plugin -->
-  <script src="../assets/js/lazyload.config.js"></script>
-  <script src="../assets/js/lazyload.js"></script>
-  <script src="../assets/js/plugin.js"></script>
-  <!-- theme -->
-  <script src="../assets/js/theme.js"></script>
-  <!-- endbuild -->
-  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>

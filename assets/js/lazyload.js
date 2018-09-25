@@ -3,8 +3,8 @@
  * 0.0.1
  * Deferred load js/css file, used for jquery.plugin.js and Lazy Loading.
  * 
- * @ flatfull.com All Rights Reserved.
- * Author url: blackui.com
+ * All Rights Reserved.
+ 
  */
 var lazyload = lazyload || {};
 

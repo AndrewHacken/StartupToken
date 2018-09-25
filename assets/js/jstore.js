@@ -2,8 +2,8 @@
  * 0.0.1
  * local storage
  * 
- * @ blackui.com All Rights Reserved.
- * Author url: blackui.com
+ * @  All Rights Reserved.
+ * Author url: 
  */
 (function() {
   'use strict';
