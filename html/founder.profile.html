@@ -15,14 +15,20 @@
   <!-- endbuild -->
 </head>
 
-<body class="layout-column  pace-done">
+<body class="layout-column    pace-done" data-class="">
   <div class="pace  pace-inactive">
     <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
       <div class="pace-progress-inner"></div>
     </div>
     <div class="pace-activity"></div>
   </div>
-  <header id="header" class="page-header bg-white box-shadow animate fadeInDown scroll-up">
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
+  <header id="header" class="page-header bg-white box-shadow animate fadeInDown scroll-up sticky" data-class="bg-white">
     <div class="navbar navbar-expand-lg">
       <!-- btn to toggle sidenav on small screen -->
       <a class="d-lg-none i-con-h-a px-1" data-toggle="modal" data-target="#aside">
@@ -62,12 +68,16 @@
           <span class="input-group-prepend">
             <button type="button" class="btn no-shadow no-bg px-0"><i class="i-con i-con-search text-fade w-16"></i></button>
           </span>
-          <input type="text" class="form-control no-border no-shadow no-bg typeahead" placeholder="Search..." data-plugin="typeahead">
+          <span class="twitter-typeahead" style="position: relative; display: inline-block;"><input type="text" class="form-control no-border no-shadow no-bg typeahead tt-hint" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" style="position: absolute; top: 0px; left: 0px; border-color: transparent; box-shadow: none; opacity: 1; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);" dir="ltr"><input type="text" class="form-control no-border no-shadow no-bg typeahead tt-input" placeholder="Search..." autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top; background-color: transparent;">
+            <pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
+            <div class="dropdown-menu mt-3" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;">
+              <div class="tt-dataset tt-dataset-0"></div>
+            </div></span>
         </form>
       </div>
       <ul class="nav navbar-menu order-1 order-lg-2">
         <li class="nav-item d-none d-sm-block">
-          <a class="nav-link px-2 i-con-h-a" data-toggle="fullscreen" data-title="Fullscreen" data-plugin="screenfull">
+          <a class="nav-link px-2 i-con-h-a" data-toggle="fullscreen" data-title="Fullscreen">
             <i class="i-con i-con-fullscreen"></i>
           </a>
         </li>
@@ -266,7 +276,7 @@
   <div id="main" class="layout-row flex">
     <!-- ############ LAYOUT START-->
     <!-- ############ Aside START-->
-    <div id="aside" class="page-sidenav no-shrink  nav-expand  animate fadeInLeft fade" aria-hidden="true">
+    <div id="aside" class="page-sidenav no-shrink nav-expand animate fadeInLeft fade bg-white sticky" aria-hidden="true" data-class="bg-white">
       <div class="sidenav h-100 modal-dialog bg-white box-shadow">
         <!-- sidenav top -->
         <!-- Flex nav content -->
@@ -389,14 +399,14 @@
       <!-- ############ Main START-->
       <div class="page-container" id="page-container">
         <div class="page-title padding pb-0 ">
-          <h2 class="text-md mb-0">Profile</h2>
+          <h2 class="text-md mb-0">Founder Profile</h2>
         </div>
         <div class="padding">
           <div class="card">
-            <div class="card-header bg-dark bg-img p-0 no-border" data-stellar-background-ratio="0.1" style="background-image: url(&quot;../assets/img/c2.jpg&quot;); background-position: 50% -83.7px;" data-plugin="stellar">
+            <!-- div class="card-header bg-dark bg-img p-0 no-border" data-stellar-background-ratio="0.1" style="background-image: url(&quot;../assets/img/c2.jpg&quot;); background-position: 50% -83.7px;" data-plugin="stellar">
               <div class="bg-dark-overlay r-2x no-r-b">
                 <div class="d-md-flex">
-                  <div class="p-4">
+                  <div class="p-4" >
                     <div class="d-flex">
                       <a href="#">
                         <span class="avatar w-64">
@@ -413,10 +423,6 @@
                   <span class="flex"></span>
                   <div class="align-items-center d-flex p-4">
                     <div class="toolbar">
-                      <a href="#" class="btn btn-sm bg-dark-overlay btn-rounded text-white bg-success active" data-toggle-class="bg-success">
-                        <span class="d-inline">Follow</span>
-                        <span class="d-none">Following</span>
-                      </a>
                       <a href="#" class="btn btn-sm btn-icon bg-dark-overlay btn-rounded i-con-h-a">
                         <span><i class="i-con i-con-mail w-12"><i></i></i></span>
                       </a>
@@ -427,12 +433,12 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div-->
             <div class="px-2">
               <div class="d-flex nav-active-border nav-active-text-primary b-primary">
                 <ul class="nav ">
                   <li class="nav-item">
-                    <a class="nav-link py-3 active" href="#" data-toggle="tab" data-target="#tab_1">Feed</a>
+                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_1">Feed</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_2">Activity</a>
@@ -441,7 +447,7 @@
                     <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_3">Friends</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_4">Profile</a>
+                    <a class="nav-link py-3 active show" href="#" data-toggle="tab" data-target="#tab_4">Profile</a>
                   </li>
                 </ul>
               </div>
@@ -450,7 +456,7 @@
           <div class="row">
             <div class="col-sm-8 col-lg-9">
               <div class="tab-content">
-                <div class="tab-pane fade show active" id="tab_1">
+                <div class="tab-pane fade" id="tab_1">
                   <div class="row row-md">
                     <div class="col-md-6 masonry-item">
                       <div class="card" id="feed-1">
@@ -1177,7 +1183,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="tab_4">
+                <div class="tab-pane fade active show" id="tab_4">
                   <div class="card">
                     <div class="px-2">
                       <div class="py-3">
@@ -1433,7 +1439,11 @@
   <!-- theme -->
   <script src="../assets/js/theme.js"></script>
   <!-- endbuild -->
-  
+  <script src="../libs/typeahead.js/dist/typeahead.bundle.min.js"></script>
+  <script src="../assets/js/plugins/typeahead.js"></script>
+  <script src="../libs/screenfull/dist/screenfull.js"></script>
+  <script src="../assets/js/plugins/screenfull.js"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>

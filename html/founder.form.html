@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Profile | Bootstrap 4 Web Application</title>
+  <meta name="description" content="Responsive, Bootstrap, BS4">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- style -->
+  <!-- build:css ../assets/css/site.min.css -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/i-con.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/theme.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+  <!-- endbuild -->
+</head>
+
+<body class="layout-column  pace-done">
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
+  <header id="header" class="page-header bg-white box-shadow animate fadeInDown">
+    <div class="navbar navbar-expand-lg">
+      <!-- btn to toggle sidenav on small screen -->
+      <a class="d-lg-none i-con-h-a px-1" data-toggle="modal" data-target="#aside">
+        <i class="i-con i-con-menu text-muted"></i>
+      </a>
+      <!-- brand -->
+      <a href="../index.html" class="navbar-brand" data-pjax-keyup-state="modifier">
+        <svg fill="#a9a9a9" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path class="fill" d="M17.81 4.47c-.08 0-.16-.02-.23-.06C15.66 3.42 14 3 12.01 3c-1.98 0-3.86.47-5.57 1.41-.24.13-.54.04-.68-.2-.13-.24-.04-.55.2-.68C7.82 2.52 9.86 2 12.01 2c2.13 0 3.99.47 6.03 1.52.25.13.34.43.21.67-.09.18-.26.28-.44.28zM3.5 9.72c-.1 0-.2-.03-.29-.09-.23-.16-.28-.47-.12-.7.99-1.4 2.25-2.5 3.75-3.27C9.98 4.04 14 4.03 17.15 5.65c1.5.77 2.76 1.86 3.75 3.25.16.22.11.54-.12.7-.23.16-.54.11-.7-.12-.9-1.26-2.04-2.25-3.39-2.94-2.87-1.47-6.54-1.47-9.4.01-1.36.7-2.5 1.7-3.4 2.96-.08.14-.23.21-.39.21zm6.25 12.07c-.13 0-.26-.05-.35-.15-.87-.87-1.34-1.43-2.01-2.64-.69-1.23-1.05-2.73-1.05-4.34 0-2.97 2.54-5.39 5.66-5.39s5.66 2.42 5.66 5.39c0 .28-.22.5-.5.5s-.5-.22-.5-.5c0-2.42-2.09-4.39-4.66-4.39-2.57 0-4.66 1.97-4.66 4.39 0 1.44.32 2.77.93 3.85.64 1.15 1.08 1.64 1.85 2.42.19.2.19.51 0 .71-.11.1-.24.15-.37.15zm7.17-1.85c-1.19 0-2.24-.3-3.1-.89-1.49-1.01-2.38-2.65-2.38-4.39 0-.28.22-.5.5-.5s.5.22.5.5c0 1.41.72 2.74 1.94 3.56.71.48 1.54.71 2.54.71.24 0 .64-.03 1.04-.1.27-.05.53.13.58.41.05.27-.13.53-.41.58-.57.11-1.07.12-1.21.12zM14.91 22c-.04 0-.09-.01-.13-.02-1.59-.44-2.63-1.03-3.72-2.1-1.4-1.39-2.17-3.24-2.17-5.22 0-1.62 1.38-2.94 3.08-2.94 1.7 0 3.08 1.32 3.08 2.94 0 1.07.93 1.94 2.08 1.94s2.08-.87 2.08-1.94c0-3.77-3.25-6.83-7.25-6.83-2.84 0-5.44 1.58-6.61 4.03-.39.81-.59 1.76-.59 2.8 0 .78.07 2.01.67 3.61.1.26-.03.55-.29.64-.26.1-.55-.04-.64-.29-.49-1.31-.73-2.61-.73-3.96 0-1.2.23-2.29.68-3.24 1.33-2.79 4.28-4.6 7.51-4.6 4.55 0 8.25 3.51 8.25 7.83 0 1.62-1.38 2.94-3.08 2.94s-3.08-1.32-3.08-2.94c0-1.07-.93-1.94-2.08-1.94s-2.08.87-2.08 1.94c0 1.71.66 3.31 1.87 4.51.95.94 1.86 1.46 3.27 1.85.27.07.42.35.35.61-.05.23-.26.38-.47.38z"></path>
+          <path d="M0 0h24v24H0z" fill="none"></path>
+        </svg>
+        <!-- <img src="../assets/img/logo.png" alt="..."> -->
+        <span class="hidden-folded d-inline l-s-n-1x ">StartupToken</span>
+      </a>
+      <!-- / brand -->
+      <!-- Navbar collapse -->
+      <div class="collapse navbar-collapse order-2 order-lg-1" id="navbarToggler">
+        <ul class="navbar-nav mx-auto" data-nav="">
+          <li class="nav-item">
+            <a href="../html/card.admin.html" class="nav-link">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../html/card.news.html" class="nav-link">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../html/card.music.html" class="nav-link">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="../html/card.social.html" class="nav-link">
+            </a>
+          </li>
+        </ul>
+        <form class="input-group m-2 my-lg-0 i-con-h-a ">
+          <span class="input-group-prepend">
+            <button type="button" class="btn no-shadow no-bg px-0"><i class="i-con i-con-search text-fade w-16"></i></button>
+          </span>
+          <input type="text" class="form-control no-border no-shadow no-bg typeahead" placeholder="Search..." data-plugin="typeahead">
+        </form>
+      </div>
+      <ul class="nav navbar-menu order-1 order-lg-2">
+        <li class="nav-item d-none d-sm-block">
+          <a class="nav-link px-2 i-con-h-a" data-toggle="fullscreen" data-title="Fullscreen" data-plugin="screenfull">
+            <i class="i-con i-con-fullscreen"></i>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link px-2 i-con-h-a" data-toggle="dropdown">
+            <i class="i-con i-con-droplet solid text-success"></i>
+          </a>
+          <!-- ############ Setting START-->
+          <div class="dropdown-menu dropdown-menu-center mt-3 w animate fadeIn">
+            <div class="setting px-3">
+              <div class="mb-2">
+                <strong>Setting:</strong>
+              </div>
+              <div class="mb-3" id="settingLayout">
+                <label class="ui-check my-1 d-block">
+                  <input type="checkbox" name="stickyHeader">
+                  <i></i>
+                  <small>Sticky header</small>
+                </label>
+                <label class="ui-check my-1 d-block">
+                  <input type="checkbox" name="stickyAside">
+                  <i></i>
+                  <small>Sticky aside</small>
+                </label>
+                <label class="ui-check my-1 d-block">
+                  <input type="checkbox" name="foldedAside">
+                  <i></i>
+                  <small>Folded Aside</small>
+                </label>
+                <label class="ui-check my-1 d-block">
+                  <input type="checkbox" name="hideAside">
+                  <i></i>
+                  <small>Hide Aside</small>
+                </label>
+              </div>
+              <div class="mb-2">
+                <strong>Color:</strong>
+              </div>
+              <div>
+                <label class="radio radio-inline ui-check ui-check-md">
+                  <input type="radio" name="bg" value="">
+                  <i></i>
+                </label>
+                <label class="radio radio-inline ui-check ui-check-color ui-check-md">
+                  <input type="radio" name="bg" value="bg-dark">
+                  <i class="bg-dark"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+          <!-- ############ Setting END-->
+        </li>
+        <!-- Notification -->
+        <li class="nav-item dropdown">
+          <a class="nav-link px-2 i-con-h-a mr-lg-2" data-toggle="dropdown">
+            <i class="i-con i-con-bell"><i></i></i>
+            <span class="badge badge-pill badge-up bg-primary">8</span>
+          </a>
+          <!-- dropdown -->
+          <div class="dropdown-menu dropdown-menu-right mt-3 w-md animate fadeIn p-0">
+            <div class="scrollable hover" style="max-height: 250px">
+              <div class="list list-row animates animates-fadeInUp">
+                <div class="list-item " data-id="5">
+                  <div>
+                    <a href="#">
+                      <span class="w-32 avatar circle bg-warning-lt">
+                        <img src="../assets/img/a5.jpg" alt=".">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="flex">
+                    <div class="item-feed h-2x"> @Eddel Competitive gaming <a href="#">ladders</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-item " data-id="8">
+                  <div>
+                    <a href="#">
+                      <span class="w-32 avatar circle bg-success-lt">
+                        <img src="../assets/img/a8.jpg" alt=".">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="flex">
+                    <div class="item-feed h-2x"> Mike Added you to <a href="#">repo</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-item " data-id="9">
+                  <div>
+                    <a href="#">
+                      <span class="w-32 avatar circle bg-info-lt">
+                        <img src="../assets/img/a9.jpg" alt=".">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="flex">
+                    <div class="item-feed h-2x"> Added to <a href="#">GameTime</a> team </div>
+                  </div>
+                </div>
+                <div class="list-item " data-id="1">
+                  <div>
+                    <a href="#">
+                      <span class="w-32 avatar circle bg-primary-lt">
+                        <img src="../assets/img/a1.jpg" alt=".">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="flex">
+                    <div class="item-feed h-2x">
+                      <a href="#">@Mike</a> Send you a message </div>
+                  </div>
+                </div>
+                <div class="list-item " data-id="11">
+                  <div>
+                    <a href="#">
+                      <span class="w-32 avatar circle bg-info-lt"> K </span>
+                    </a>
+                  </div>
+                  <div class="flex">
+                    <div class="item-feed h-2x"> Prepare the documentation for the <a href="#">Fitness app</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-item " data-id="12">
+                  <div>
+                    <a href="#">
+                      <span class="w-32 avatar circle bg-info-lt"> D </span>
+                    </a>
+                  </div>
+                  <div class="flex">
+                    <div class="item-feed h-2x">
+                      <a href="#">Mike</a> upload last week lessons summary </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex px-3 py-2 b-t">
+              <div class="flex">
+                <span>6 Notifications</span>
+              </div>
+              <a href="setting.html">See all <i class="fa fa-angle-right text-muted"></i></a>
+            </div>
+          </div>
+          <!-- / dropdown -->
+        </li>
+        <!-- User dropdown menu -->
+        <li class="nav-item dropdown">
+          <a href="#" data-toggle="dropdown" class="nav-link d-flex align-items-center py-0 px-lg-0 px-2 text-color" aria-expanded="false">
+            <span class=" mx-2 d-none l-h-1x d-lg-block text-right">
+              <small class="text-fade d-block mb-1">Hello,</small>
+              <span>Garrett Winters</span>
+            </span>
+            <span class="avatar w-36">
+              <img src="../assets/img/a2.jpg" alt="...">
+            </span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right w pt-0 mt-3 animate fadeIn">
+            <div class="row no-gutters mb-2 text-center r-t b-b">
+              <div class="col-4 b-r">
+                <a href="app.user.html" class="py-3 d-block i-con-h-a">
+                  <i class="i-con i-con-users"><i></i></i>
+                </a>
+              </div>
+              <div class="col-4 b-r">
+                <a href="app.mail.html" class="py-3 d-block i-con-h-a">
+                  <i class="i-con i-con-mail"><i></i></i>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="app.message.html" class="py-3 d-block i-con-h-a">
+                  <i class="i-con i-con-comment"><i></i></i>
+                </a>
+              </div>
+            </div>
+            <a class="dropdown-item" href="founder.profile.html">
+              <span>Profile</span>
+            </a>
+            <a class="dropdown-item" href="user.setting.html">
+              <span>Account Settings</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="page.faq.html"> Need help? </a>
+            <a class="dropdown-item" href="signin.html">Sign out</a>
+          </div>
+        </li>
+        <!-- Navarbar toggle btn -->
+        <li class="nav-item d-lg-none">
+          <a href="#" class="nav-link i-con-h-a px-1" data-toggle="collapse" data-toggle-class="" data-target="#navbarToggler">
+            <i class="i-con i-con-nav text-muted"><i></i></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div id="main" class="layout-row flex">
+    <!-- ############ LAYOUT START-->
+    <!-- ############ Aside START-->
+    <div id="aside" class="page-sidenav no-shrink  nav-expand  animate fadeInLeft fade" aria-hidden="true">
+      <div class="sidenav h-100 modal-dialog bg-white box-shadow">
+        <!-- sidenav top -->
+        <!-- Flex nav content -->
+        <div class="flex scrollable hover">
+          <div class="nav-border b-primary" data-nav="">
+            <ul class="nav bg">
+              <li class="nav-header hidden-folded">
+                <span>Main</span>
+              </li>
+              <li>
+                <a href="dashboard.html" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-home"><i></i></i>
+                  </span>
+                  <span class="nav-text">Home</span>
+                </a>
+              </li>
+              <li class="nav-header hidden-folded">
+                <span>Apps</span>
+              </li>
+              <li class="">
+                <a href="user.social.html" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-globe"><i></i></i>
+                  </span>
+                  <span class="nav-text">News Feed</span>
+                </a>
+              </li>
+              <li class="">
+                <a href="app.calendar.html" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-calendar"><i></i></i>
+                  </span>
+                  <span class="nav-text">Calendar</span>
+                </a>
+              </li>
+              <li>
+                <a href="app.mail.html" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-mail"><i></i></i>
+                  </span>
+                  <span class="nav-text">Email</span>
+                  <span class="nav-badge">
+                    <b class="badge badge-sm badge-pill bg-primary">5</b>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="app.message.html" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-comment"><i></i></i>
+                  </span>
+                  <span class="nav-text">Messages</span>
+                  <span class="nav-badge">
+                    <b class="badge badge-sm badge-pill bg-danger">12</b>
+                  </span>
+                </a>
+              </li>
+              <li class="">
+                <a href="app.user.html" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-users"><i></i></i>
+                  </span>
+                  <span class="nav-text">Community</span>
+                </a>
+              </li>
+            </ul>
+            <ul class="nav">
+              <li class="nav-header hidden-folded">
+                <span>Personal</span>
+              </li>
+              <li class="active">
+                <a href="founder.profile.html" class="i-con-h-a" style="">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-user"><i class=""></i></i>
+                  </span>
+                  <span class="nav-text">Profile</span>
+                </a>
+              </li>
+              <li class="">
+                <a href="user.setting.html" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-table"><i></i></i>
+                  </span>
+                  <span class="nav-text">Settings</span>
+                </a>
+              </li>
+              <li class="">
+                <a href="signin.html" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-shutdown"><i></i></i>
+                  </span>
+                  <span class="nav-text">Log out</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- sidenav bottom -->
+        <div class="no-shrink ">
+          <div class="text-sm p-3 b-t">
+            <div class="hidden-folded text-sm">
+              <div class="text-muted"><small class="text-muted">© Copyright 2018</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ############ Aside END-->
+    <!-- ############ Content START-->
+    <div id="content" class="flex" style="">
+      <!-- ############ Main START-->
+      <div class="page-container" id="page-container">
+        <div class="page-title padding pb-0 ">
+          <h2 class="text-md mb-0"></h2>
+        </div>
+        <div class="frm_fields_container">
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Title <span class="frm_required">*</span>
+            </label>
+            <div class="col-sm-8">
+              <div class="mt-2 mb-2">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Mr</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Mrs</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                  <label class="form-check-label" for="inlineRadio3">Miss</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">First Name <span class="frm_required">*</span> </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Last Name <span class="frm_required">*</span> </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Role <span class="frm_required">*</span> </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div id="frm_field_101_container" class="form-group row">
+            <label for="field_z8ble5" class="col-sm-4 col-form-label">Email Address <span class="frm_required">*</span>
+            </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div id="frm_field_102_container" class="form-group row">
+            <label for="field_gfni52" class="col-sm-4 col-form-label">Website/URL <span class="frm_required">*</span>
+            </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div id="frm_field_103_container" class="form-group row">
+            <label for="field_dq0rg2" class="col-sm-4 col-form-label">Twitter <span class="frm_required">*</span>
+            </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div id="frm_field_104_container" class="form-group row">
+            <label for="field_50kbz2" class="col-sm-4 col-form-label">Bitcoin Talk <span class="frm_required"></span>
+            </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div id="frm_field_105_container" class="form-group row">
+            <label for="field_imkwx2" class="col-sm-4 col-form-label">Reddit <span class="frm_required"></span>
+            </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div id="frm_field_106_container" class="form-group row">
+            <label for="field_js0q35" class="col-sm-4 col-form-label">GitHub Account <span class="frm_required"></span>
+            </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div id="frm_field_119_container" class="form-group row">
+            <label for="field_pehja" class="col-sm-4 col-form-label">Medium Account <span class="frm_required">*</span>
+            </label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <div id="frm_field_107_container" class="form-group row">
+            <label class="col-sm-4 col-form-label">Select<span class="frm_required">*</span></label>
+            <div class="col-sm-8">
+              <select class="form-control">
+                <option value="Select" selected="selected" class=""> Select </option>
+                <option value="Afghanistan" class=""> Afghanistan </option>
+                <option value="Albania" class=""> Albania </option>
+                <option value="Algeria" class=""> Algeria </option>
+                <option value="American Samoa" class=""> American Samoa </option>
+                <option value="Andorra" class=""> Andorra </option>
+                <option value="Angola" class=""> Angola </option>
+                <option value="Anguilla" class=""> Anguilla </option>
+                <option value="Antarctica" class=""> Antarctica </option>
+                <option value="Antigua and Barbuda" class=""> Antigua and Barbuda </option>
+                <option value="Argentina" class=""> Argentina </option>
+                <option value="Armenia" class=""> Armenia </option>
+                <option value="Aruba" class=""> Aruba </option>
+                <option value="Australia" class=""> Australia </option>
+                <option value="Austria" class=""> Austria </option>
+                <option value="Azerbaijan" class=""> Azerbaijan </option>
+                <option value="Bahamas" class=""> Bahamas </option>
+                <option value="Bahrain" class=""> Bahrain </option>
+                <option value="Bangladesh" class=""> Bangladesh </option>
+                <option value="Barbados" class=""> Barbados </option>
+                <option value="Belarus" class=""> Belarus </option>
+                <option value="Belgium" class=""> Belgium </option>
+                <option value="Belize" class=""> Belize </option>
+                <option value="Benin" class=""> Benin </option>
+                <option value="Bermuda" class=""> Bermuda </option>
+                <option value="Bhutan" class=""> Bhutan </option>
+                <option value="Bolivia" class=""> Bolivia </option>
+                <option value="Bosnia and Herzegovina" class=""> Bosnia and Herzegovina </option>
+                <option value="Botswana" class=""> Botswana </option>
+                <option value="Brazil" class=""> Brazil </option>
+                <option value="Brunei" class=""> Brunei </option>
+                <option value="Bulgaria" class=""> Bulgaria </option>
+                <option value="Burkina Faso" class=""> Burkina Faso </option>
+                <option value="Burundi" class=""> Burundi </option>
+                <option value="Cambodia" class=""> Cambodia </option>
+                <option value="Cameroon" class=""> Cameroon </option>
+                <option value="Canada" class=""> Canada </option>
+                <option value="Cape Verde" class=""> Cape Verde </option>
+                <option value="Cayman Islands" class=""> Cayman Islands </option>
+                <option value="Central African Republic" class=""> Central African Republic </option>
+                <option value="Chad" class=""> Chad </option>
+                <option value="Chile" class=""> Chile </option>
+                <option value="China" class=""> China </option>
+                <option value="Colombia" class=""> Colombia </option>
+                <option value="Comoros" class=""> Comoros </option>
+                <option value="Congo" class=""> Congo </option>
+                <option value="Costa Rica" class=""> Costa Rica </option>
+                <option value="Côte d‘Ivoire" class=""> Côte d‘Ivoire </option>
+                <option value="Croatia" class=""> Croatia </option>
+                <option value="Cuba" class=""> Cuba </option>
+                <option value="Cyprus" class=""> Cyprus </option>
+                <option value="Czech Republic" class=""> Czech Republic </option>
+                <option value="Denmark" class=""> Denmark </option>
+                <option value="Djibouti" class=""> Djibouti </option>
+                <option value="Dominica" class=""> Dominica </option>
+                <option value="Dominican Republic" class=""> Dominican Republic </option>
+                <option value="East Timor" class=""> East Timor </option>
+                <option value="Ecuador" class=""> Ecuador </option>
+                <option value="Egypt" class=""> Egypt </option>
+                <option value="El Salvador" class=""> El Salvador </option>
+                <option value="Equatorial Guinea" class=""> Equatorial Guinea </option>
+                <option value="Eritrea" class=""> Eritrea </option>
+                <option value="Estonia" class=""> Estonia </option>
+                <option value="Ethiopia" class=""> Ethiopia </option>
+                <option value="Fiji" class=""> Fiji </option>
+                <option value="Finland" class=""> Finland </option>
+                <option value="France" class=""> France </option>
+                <option value="French Guiana" class=""> French Guiana </option>
+                <option value="French Polynesia" class=""> French Polynesia </option>
+                <option value="Gabon" class=""> Gabon </option>
+                <option value="Gambia" class=""> Gambia </option>
+                <option value="Georgia" class=""> Georgia </option>
+                <option value="Germany" class=""> Germany </option>
+                <option value="Ghana" class=""> Ghana </option>
+                <option value="Gibraltar" class=""> Gibraltar </option>
+                <option value="Greece" class=""> Greece </option>
+                <option value="Greenland" class=""> Greenland </option>
+                <option value="Grenada" class=""> Grenada </option>
+                <option value="Guam" class=""> Guam </option>
+                <option value="Guatemala" class=""> Guatemala </option>
+                <option value="Guinea" class=""> Guinea </option>
+                <option value="Guinea-Bissau" class=""> Guinea-Bissau </option>
+                <option value="Guyana" class=""> Guyana </option>
+                <option value="Haiti" class=""> Haiti </option>
+                <option value="Honduras" class=""> Honduras </option>
+                <option value="Hong Kong" class=""> Hong Kong </option>
+                <option value="Hungary" class=""> Hungary </option>
+                <option value="Iceland" class=""> Iceland </option>
+                <option value="India" class=""> India </option>
+                <option value="Indonesia" class=""> Indonesia </option>
+                <option value="Iran" class=""> Iran </option>
+                <option value="Iraq" class=""> Iraq </option>
+                <option value="Ireland" class=""> Ireland </option>
+                <option value="Israel" class=""> Israel </option>
+                <option value="Italy" class=""> Italy </option>
+                <option value="Jamaica" class=""> Jamaica </option>
+                <option value="Japan" class=""> Japan </option>
+                <option value="Jordan" class=""> Jordan </option>
+                <option value="Kazakhstan" class=""> Kazakhstan </option>
+                <option value="Kenya" class=""> Kenya </option>
+                <option value="Kiribati" class=""> Kiribati </option>
+                <option value="North Korea" class=""> North Korea </option>
+                <option value="South Korea" class=""> South Korea </option>
+                <option value="Kuwait" class=""> Kuwait </option>
+                <option value="Kyrgyzstan" class=""> Kyrgyzstan </option>
+                <option value="Laos" class=""> Laos </option>
+                <option value="Latvia" class=""> Latvia </option>
+                <option value="Lebanon" class=""> Lebanon </option>
+                <option value="Lesotho" class=""> Lesotho </option>
+                <option value="Liberia" class=""> Liberia </option>
+                <option value="Libya" class=""> Libya </option>
+                <option value="Liechtenstein" class=""> Liechtenstein </option>
+                <option value="Lithuania" class=""> Lithuania </option>
+                <option value="Luxembourg" class=""> Luxembourg </option>
+                <option value="Macedonia" class=""> Macedonia </option>
+                <option value="Madagascar" class=""> Madagascar </option>
+                <option value="Malawi" class=""> Malawi </option>
+                <option value="Malaysia" class=""> Malaysia </option>
+                <option value="Maldives" class=""> Maldives </option>
+                <option value="Mali" class=""> Mali </option>
+                <option value="Malta" class=""> Malta </option>
+                <option value="Marshall Islands" class=""> Marshall Islands </option>
+                <option value="Mauritania" class=""> Mauritania </option>
+                <option value="Mauritius" class=""> Mauritius </option>
+                <option value="Mexico" class=""> Mexico </option>
+                <option value="Micronesia" class=""> Micronesia </option>
+                <option value="Moldova" class=""> Moldova </option>
+                <option value="Monaco" class=""> Monaco </option>
+                <option value="Mongolia" class=""> Mongolia </option>
+                <option value="Montenegro" class=""> Montenegro </option>
+                <option value="Montserrat" class=""> Montserrat </option>
+                <option value="Morocco" class=""> Morocco </option>
+                <option value="Mozambique" class=""> Mozambique </option>
+                <option value="Myanmar" class=""> Myanmar </option>
+                <option value="Namibia" class=""> Namibia </option>
+                <option value="Nauru" class=""> Nauru </option>
+                <option value="Nepal" class=""> Nepal </option>
+                <option value="Netherlands" class=""> Netherlands </option>
+                <option value="New Zealand" class=""> New Zealand </option>
+                <option value="Nicaragua" class=""> Nicaragua </option>
+                <option value="Niger" class=""> Niger </option>
+                <option value="Nigeria" class=""> Nigeria </option>
+                <option value="Norway" class=""> Norway </option>
+                <option value="Northern Mariana Islands" class=""> Northern Mariana Islands </option>
+                <option value="Oman" class=""> Oman </option>
+                <option value="Pakistan" class=""> Pakistan </option>
+                <option value="Palau" class=""> Palau </option>
+                <option value="Palestine" class=""> Palestine </option>
+                <option value="Panama" class=""> Panama </option>
+                <option value="Papua New Guinea" class=""> Papua New Guinea </option>
+                <option value="Paraguay" class=""> Paraguay </option>
+                <option value="Peru" class=""> Peru </option>
+                <option value="Philippines" class=""> Philippines </option>
+                <option value="Poland" class=""> Poland </option>
+                <option value="Portugal" class=""> Portugal </option>
+                <option value="Puerto Rico" class=""> Puerto Rico </option>
+                <option value="Qatar" class=""> Qatar </option>
+                <option value="Romania" class=""> Romania </option>
+                <option value="Russia" class=""> Russia </option>
+                <option value="Rwanda" class=""> Rwanda </option>
+                <option value="Saint Kitts and Nevis" class=""> Saint Kitts and Nevis </option>
+                <option value="Saint Lucia" class=""> Saint Lucia </option>
+                <option value="Saint Vincent and the Grenadines" class=""> Saint Vincent and the Grenadines </option>
+                <option value="Samoa" class=""> Samoa </option>
+                <option value="San Marino" class=""> San Marino </option>
+                <option value="Sao Tome and Principe" class=""> Sao Tome and Principe </option>
+                <option value="Saudi Arabia" class=""> Saudi Arabia </option>
+                <option value="Senegal" class=""> Senegal </option>
+                <option value="Serbia and Montenegro" class=""> Serbia and Montenegro </option>
+                <option value="Seychelles" class=""> Seychelles </option>
+                <option value="Sierra Leone" class=""> Sierra Leone </option>
+                <option value="Singapore" class=""> Singapore </option>
+                <option value="Slovakia" class=""> Slovakia </option>
+                <option value="Slovenia" class=""> Slovenia </option>
+                <option value="Solomon Islands" class=""> Solomon Islands </option>
+                <option value="Somalia" class=""> Somalia </option>
+                <option value="South Africa" class=""> South Africa </option>
+                <option value="Spain" class=""> Spain </option>
+                <option value="Sri Lanka" class=""> Sri Lanka </option>
+                <option value="Sudan" class=""> Sudan </option>
+                <option value="Suriname" class=""> Suriname </option>
+                <option value="Swaziland" class=""> Swaziland </option>
+                <option value="Sweden" class=""> Sweden </option>
+                <option value="Switzerland" class=""> Switzerland </option>
+                <option value="Syria" class=""> Syria </option>
+                <option value="Taiwan" class=""> Taiwan </option>
+                <option value="Tajikistan" class=""> Tajikistan </option>
+                <option value="Tanzania" class=""> Tanzania </option>
+                <option value="Thailand" class=""> Thailand </option>
+                <option value="Togo" class=""> Togo </option>
+                <option value="Tonga" class=""> Tonga </option>
+                <option value="Trinidad and Tobago" class=""> Trinidad and Tobago </option>
+                <option value="Tunisia" class=""> Tunisia </option>
+                <option value="Turkey" class=""> Turkey </option>
+                <option value="Turkmenistan" class=""> Turkmenistan </option>
+                <option value="Tuvalu" class=""> Tuvalu </option>
+                <option value="Uganda" class=""> Uganda </option>
+                <option value="Ukraine" class=""> Ukraine </option>
+                <option value="United Arab Emirates" class=""> United Arab Emirates </option>
+                <option value="United Kingdom" class=""> United Kingdom </option>
+                <option value="United States" class=""> United States </option>
+                <option value="Uruguay" class=""> Uruguay </option>
+                <option value="Uzbekistan" class=""> Uzbekistan </option>
+                <option value="Vanuatu" class=""> Vanuatu </option>
+                <option value="Vatican City" class=""> Vatican City </option>
+                <option value="Venezuela" class=""> Venezuela </option>
+                <option value="Vietnam" class=""> Vietnam </option>
+                <option value="Virgin Islands, British" class=""> Virgin Islands, British </option>
+                <option value="Virgin Islands, U.S." class=""> Virgin Islands, U.S. </option>
+                <option value="Yemen" class=""> Yemen </option>
+                <option value="Zambia" class=""> Zambia </option>
+                <option value="Zimbabwe" class=""> Zimbabwe </option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">What is your project about? (3 sentences) </label>
+            <div class="col-sm-8">
+              <textarea class="form-control" rows="7"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Tell us in 5 sentences why you think your project is innovative? </label>
+            <div class="col-sm-8">
+              <textarea class="form-control" rows="7"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">How big is your community? (All social medias, twitter, facebook, newsletter combined) </label>
+            <div class="col-sm-8">
+              <textarea class="form-control" rows="7"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">What are you expectiong from the Acceleration program? </label>
+            <div class="col-sm-8">
+              <textarea class="form-control" rows="7"></textarea>
+            </div>
+          </div>
+          <div id="frm_field_115_container" class="form-group row vertical_radio">
+            <label class="col-sm-4 col-form-label">Have you raised some seed fund? <span class="frm_required">*</span>
+            </label>
+            <div class="col-sm-8">
+              <div class="frm_opt_container">
+                <div class="frm_checkbox" id="frm_checkbox_115-0"><label for="field_ztzj1-0"><input type="checkbox" name="item_meta[115][]" id="field_ztzj1-0" value="No" data-reqmsg="This field cannot be blank." data-invmsg="Have you raised some seed fund? is invalid"> No</label></div>
+                <div class="frm_checkbox" id="frm_checkbox_115-1"><label for="field_ztzj1-1"><input type="checkbox" name="item_meta[115][]" id="field_ztzj1-1" value="VC" data-reqmsg="This field cannot be blank." data-invmsg="Have you raised some seed fund? is invalid"> VC</label></div>
+                <div class="frm_checkbox" id="frm_checkbox_115-2"><label for="field_ztzj1-2"><input type="checkbox" name="item_meta[115][]" id="field_ztzj1-2" value="Private Equity" data-reqmsg="This field cannot be blank." data-invmsg="Have you raised some seed fund? is invalid"> Private Equity</label></div>
+                <div class="frm_checkbox" id="frm_checkbox_115-3"><label for="field_ztzj1-3"><input type="checkbox" name="item_meta[115][]" id="field_ztzj1-3" value="Loan" data-reqmsg="This field cannot be blank." data-invmsg="Have you raised some seed fund? is invalid"> Loan</label></div>
+                <div class="frm_checkbox" id="frm_checkbox_115-4"><label for="field_ztzj1-4"><input type="checkbox" name="item_meta[115][]" id="field_ztzj1-4" value="Love money" data-reqmsg="This field cannot be blank." data-invmsg="Have you raised some seed fund? is invalid"> Love money</label></div>
+                <div class="frm_checkbox" id="frm_checkbox_115-5"><label for="field_ztzj1-5"><input type="checkbox" name="item_meta[115][]" id="field_ztzj1-5" value="Family Office" data-reqmsg="This field cannot be blank." data-invmsg="Have you raised some seed fund? is invalid"> Family Office</label></div>
+                <div class="frm_checkbox" id="frm_checkbox_115-6"><label for="field_ztzj1-6"><input type="checkbox" name="item_meta[115][]" id="field_ztzj1-6" value="Angel investor" data-reqmsg="This field cannot be blank." data-invmsg="Have you raised some seed fund? is invalid"> Angel investor</label></div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">How much have you raised? </label>
+            <div class="col-sm-6">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">$</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">When would you like to launch your Token sale?</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control mb-3" data-plugin="datepicker" data-option="{}">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">How much would you like to raise? </label>
+            <div class="col-sm-8">
+              <textarea class="form-control" rows="5"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Tell us about your team. How long have you been involved in this space? Founders background, experience in the Blockchain industry, any advisor yet,... ? </label>
+            <div class="col-sm-8">
+              <textarea class="form-control" rows="9"></textarea>
+            </div>
+          </div>
+          <div id="frm_field_114_container" class="form-group row vertical_radio">
+            <label class="col-sm-4 col-form-label">How did you hear about us? <span class="frm_required">*</span>
+            </label>
+            <div class="col-sm-8">
+              <div class="frm_opt_container">
+                <div class="frm_radio"><label for="field_nmsqg532-0"> <input type="radio" name="item_meta[114]" id="field_nmsqg532-0" value="Meetup" data-reqmsg="This field cannot be blank." data-invmsg="How did you hear about us? is invalid"> Meetup</label></div>
+                <div class="frm_radio"><label for="field_nmsqg532-1"> <input type="radio" name="item_meta[114]" id="field_nmsqg532-1" value="Facebook" data-reqmsg="This field cannot be blank." data-invmsg="How did you hear about us? is invalid"> Facebook</label></div>
+                <div class="frm_radio"><label for="field_nmsqg532-2"> <input type="radio" name="item_meta[114]" id="field_nmsqg532-2" value="Twitter" data-reqmsg="This field cannot be blank." data-invmsg="How did you hear about us? is invalid"> Twitter</label></div>
+                <div class="frm_radio"><label for="field_nmsqg532-3"> <input type="radio" name="item_meta[114]" id="field_nmsqg532-3" value="School" data-reqmsg="This field cannot be blank." data-invmsg="How did you hear about us? is invalid"> School</label></div>
+                <div class="frm_radio"><label for="field_nmsqg532-4"> <input type="radio" name="item_meta[114]" id="field_nmsqg532-4" value="Search Engine" data-reqmsg="This field cannot be blank." data-invmsg="How did you hear about us? is invalid"> Search Engine</label></div>
+                <div class="frm_radio"><label for="field_nmsqg532-5"> <input type="radio" name="item_meta[114]" id="field_nmsqg532-5" value="Linkedin" data-reqmsg="This field cannot be blank." data-invmsg="How did you hear about us? is invalid"> Linkedin</label></div>
+                <div class="frm_radio"><label for="field_nmsqg532-6"> <input type="radio" name="item_meta[114]" id="field_nmsqg532-6" value="A friend" data-reqmsg="This field cannot be blank." data-invmsg="How did you hear about us? is invalid"> A friend</label></div>
+                <div class="frm_radio"><label for="field_nmsqg532-7"> <input type="radio" name="item_meta[114]" id="field_nmsqg532-7" value="Whatsapp/Telegram" data-reqmsg="This field cannot be blank." data-invmsg="How did you hear about us? is invalid"> Whatsapp/Telegram</label></div>
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="item_key" value="">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"></div>
+            <div class="col-md-3"><a class="btn btn-primary btn-block" href="founder.profile.html">Save</a></div>
+            <div class="col-md-3"><a href="#" class="btn btn-outline-primary btn-block">Cancel</a></div>
+          </div>
+        </div>
+      </div>
+      <!-- ############ Main END-->
+    </div>
+    <!-- ############ Content END-->
+    <!-- ############ LAYOUT END-->
+  </div>
+  <!-- build:js ../assets/js/site.min.js -->
+  <!-- jQuery -->
+  <script src="../libs/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- ajax page -->
+  <script src="../libs/pace-progress/pace.min.js"></script>
+  <script src="../libs/pjax/pjax.js"></script>
+  <script src="../assets/js/ajax.js"></script>
+  <!-- lazyload plugin -->
+  <script src="../assets/js/lazyload.config.js"></script>
+  <script src="../assets/js/lazyload.js"></script>
+  <script src="../assets/js/plugin.js"></script>
+  <!-- theme -->
+  <script src="../assets/js/theme.js"></script>
+  <!-- endbuild -->
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
