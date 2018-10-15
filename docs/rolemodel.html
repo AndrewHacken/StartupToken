@@ -15,7 +15,19 @@
   <!-- endbuild -->
 </head>
 
-<body class="layout-column">
+<body class="layout-column    pace-done">
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
   <div id="main" class="layout-row flex">
     <!-- ############ Aside START-->
     <div id="aside" class="page-sidenav box-shadow">
@@ -89,6 +101,8 @@
         </div>
         <hr>
       </div>
+      <div>
+      </div>
       <h3 class="">Users</h3>
       <div class="row">
         <div class="col-md-12">
@@ -136,7 +150,7 @@
           </div>
         </div>
       </div>
-      <h3 class="my-3">Users Screens Permisions</h3>
+      <h3 class="my-3">Screens and available features for different Roles</h3>
       <div class="row">
         <div class="col-md-3">
         </div>
@@ -152,40 +166,268 @@
       </div>
       <div class="row">
         <div class="col-md-3">
-          <h3 class="text-left my-3">0.0.0 Landing Page</h3>
+          <h3 class="text-left my-3">0.0 Landing Page</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-md-3">
-          <h3 class="text-left my-3 px-5">0.0.1 SignIn</h3>
+          <h4 class="text-left my-3 px-3">0.1 SignIn</h4>
         </div>
-        <div class="col-md-9"><a class="btn btn-primary btn-block my-3" href="#">SignIn</a></div>
+        <div class="col-md-9"><a class="btn btn-primary btn-block my-3" href="../html/signin.html">SignIn</a></div>
       </div>
       <div class="row">
         <div class="col-md-3">
-          <h3 class="text-left my-3 px-5">0.0.2 SignUp</h3>
+          <h5 class="text-left my-3 px-5">0.1.1 Forgot password</h5>
         </div>
-        <div class="col-md-9"><a class="btn btn-primary btn-block my-3" href="#">SignUp</a></div>
+        <div class="col-md-9"><a class="btn btn-primary btn-block my-3" href="../html/forgot-password.html">Forget password</a></div>
       </div>
       <div class="row">
         <div class="col-md-3">
-          <h3 class="text-left my-3">1.0.0 Home Page</h3>
+          <h4 class="text-left my-3 px-3">0.2 SignUp</h4>
         </div>
-        <div class="col-md-3"><a class="btn btn-primary btn-block my-3" href="#">Backer Home Page / Dashboard</a></div>
-        <div class="col-md-3"><a class="btn btn-primary my-3 btn-block" href="#">Founder Home Page / Dashboard</a></div>
-        <div class="col-md-3"><a class="btn btn-primary my-3 btn-block" href="#">Mentor Home Page / Dashboard</a></div>
+        <div class="col-md-9"><a class="btn btn-primary btn-block my-3" href="../html/signup.html">SignUp</a></div>
       </div>
       <div class="row">
         <div class="col-md-3">
-          <h3 class="text-left my-3">2.0.0 Projects (gallery)</h3>
+          <h4 class="text-left my-3 px-5">0.2.1 Conf Page</h4>
         </div>
-        <div class="col-md-9"><a class="btn btn-primary btn-block my-3" href="#">Projects</a></div>
+        <div class="col-md-9"><a class="btn btn-primary btn-block my-3" href="../html/signup.html">Confirmation Page</a></div>
       </div>
       <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-3"></div>
+        <div class="col-md-3">
+          <h3 class="text-left my-3">1.0 Home Page</h3>
+        </div>
+        <div class="col-md-9">
+          <p class="lead my-3">When user signin with user account and without any profile</p><a class="btn btn-primary btn-block my-3" href="../html/pre_profile_dashboard.html">Welcome Dashboard</a>
+          <p class="lead my-3">User created one of profiles</p>
+          <div class="row">
+            <div class="col-md-4"><a class="btn btn-primary btn-block my-3 disabled" href="#">Backer Home Page / Dashboard</a>
+              <div class="card">
+                <div class="card-body">
+                  <h4>Widgets</h4>
+                  <h6 class="text-muted">Widgets suports Backer activities</h6>
+                  <li>Favorite projects</li>
+                  <li>Challanges&nbsp;</li>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12"><a class="btn btn-primary my-3 btn-block disabled" href="#">Founder Home Page / Dashboard</a></div>
+              <div class="card">
+                <div class="card-body">
+                  <h4>Widgets</h4>
+                  <h6 class="text-muted">Widgets suports Founder activities</h6>
+                  <li>Favorite projects</li>
+                  <li>Challanges&nbsp;</li>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12"><a class="btn btn-primary my-3 btn-block disabled" href="#">Mentor Home Page / Dashboard</a></div>
+              <div class="card">
+                <div class="card-body">
+                  <h4>Widgets</h4>
+                  <h6 class="text-muted">Widgets suports Mentor activities</h6>
+                  <li>Favorite projects</li>
+                  <li>Challanges&nbsp;</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h3 class="text-left my-3">2.0 Projects (gallery)</h3>
+        </div>
+        <div class="col-md-9"><a class="btn btn-primary btn-block my-3" href="../html/projects.html">Projects</a></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h4 class="text-left my-3 px-5">2.1 Project Profile</h4>
+        </div>
+        <div class="col-md-3">
+          <a class="btn btn-primary btn-block my-3 disabled" href="#" contenteditable="true">Project Profile for Backer</a>
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features&nbsp;for Project profile for Backer</h6>
+              <li>Profile review</li>
+              <li>Public Document</li>
+              <li>Receive notifications about project progress, updates etc</li>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a class="btn btn-primary btn-block my-3 disabled" href="#">Project Profile for Founder</a>
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features&nbsp;for Project profile for Founder</h6>
+              <li>Create, update, terminate Project profile</li>
+              <li>Create, add, update, delete and public project documents</li>
+              <li>Access to acceleration program</li>
+              <li>Receive notifications about completed reviews, mentors notices, other updates etc</li>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a class="btn btn-primary btn-block my-3 disabled" href="#">Project Profile for Mentor</a>
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features for Project profile for Mentor</h6>
+              <li>Access to unpublished or internal documents</li>
+              <li>Ability to change statuses for Project profile</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3" style="">
+          <h3 class="text-left my-3">3.0 Profile</h3>
+        </div>
+        <div class="col-md-3">
+          <a class="btn btn-primary btn-block my-3 disabled" href="#">Backer Profile</a>
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features&nbsp;for Backer profile</h6>
+              <li>CRUD for Backer profile or import profile from LinkedIn/</li>
+              <li>Access to voting for projects, taking part in challenges, reviewing documents and posting</li>
+              <li>Display an information about participation in challanges</li>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a class="btn btn-primary btn-block my-3" href="../html/founder.profile.html">Founder Profile</a>
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features&nbsp;for Founder profile</h6>
+              <li>CRUD for Founder profile</li>
+              <li>Access to create, update, delete Project Profile</li>
+              <li>Confirm a participation in Acceleration program</li>
+              <li>Create and manage challenges and reviews for Backers</li>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a class="btn btn-primary btn-block my-3 disabled" href="#">Mentor Profile</a>
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features&nbsp;for Mentor profile</h6>
+              <li>CRUD for Mentor profile</li>
+              <li>Access to Supervising project/projects</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3" style="">
+          <h3 class="text-left my-3">4.0 Planing board</h3>
+          <h6 class="text-muted">Planing dashboard appears for Founder only after acceptance to participate in Acceleration program</h6>
+        </div>
+        <div class="col-md-3">
+          <h4 class="my-4 text-center">-</h4>
+        </div>
+        <div class="col-md-3">
+          <a class="btn btn-primary btn-block my-3" href="../html/founder.profile.html">Founder Palning Board</a>
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features for Founder planing dashboard</h6>
+              <li>Allows to plan, progress and complete activities related to Acceleration program</li>
+              <li>Create new activities and assign it on Mentors or third part vendors</li>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <a class="btn btn-primary btn-block my-3 disabled" href="#">Mentor Planing board</a>
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features for Mentor Planing board</h6>
+              <li>Allows to plan, progress and complete activities related to Acceleration program</li>
+              <li>Create new activities and assign it on Founder, other Mentors or third part vendors</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h3 class="text-left my-3">5.0 Social</h3>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features for Backer profile</h6>
+              <li>Create, post, edit, delete posts like in Twitter of Facebook</li>
+              <li>Post a results of Project review</li>
+              <li>See different kinds of posts: post, review, discussions, etc</li>
+              <li>Create social groups private op public</li>
+              <li>Integration with other social networks</li>
+              <li>Use the platform as a getaway to post on different social networks manually or by schedule</li>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features for Founder profile</h6>
+              <li>Create, post, edit, delete posts like in Twitter of Facebook</li>
+              <li>Create, post, terminate discussions</li>
+              <li>See different kinds of posts: post, review, discussions, etc</li>
+              <li>Use different types of posts: post, discussion, project update</li>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <h4>Features</h4>
+              <h6 class="text-muted">Features for Mentor profile</h6>
+              <li>Create, post, edit, delete posts like in Twitter of Facebook</li>
+              <li>Use types of posts: mentor research, mentor's notice etc.&nbsp;</li>
+              <li>See different kinds of posts: post, review, discussions, etc</li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h3 class="text-left my-3">6.0 Messages</h3>
+        </div>
+        <div class="col-md-9"><a class="btn btn-primary btn-block my-3" href="../html/app.message.html">Messages</a>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h4>Features</h4>
+                  <h6 class="text-muted">Features for Messages</h6>
+                  <li>Integrate Mesangers to be able to send messages to other mesangers</li>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h3 class="text-left my-3">7.0 Help and Support</h3>
+        </div>
+        <div class="col-md-9"><a class="btn btn-primary btn-block my-3 disabled" href="../html/projects.html">Help and Support</a></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h3 class="text-left my-3">8.0 Email</h3>
+        </div>
+        <div class="col-md-9" style=""><a class="btn btn-primary btn-block my-3" href="../html/app.mail.html">Email</a></div>
       </div>
       <div class="row">
         <div class="col-md-3"></div>
