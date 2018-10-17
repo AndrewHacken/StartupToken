@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
   <!-- endbuild -->
 </head>
+
+
 <!-- Navigation bar-->
 <body class="layout-column    pace-done">
     <div class="pace  pace-inactive">
@@ -32,18 +34,21 @@
       <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar19">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbar19"> <a class="navbar-brand d-none d-md-block" href="#">
+        <div class="collapse navbar-collapse" id="navbar19"> <a href="#" class="navbar-brand d-none d-md-block">
             <i class="fa d-inline fa-lg fa-stop-circle-o"></i>
           </a>
           <a href="../index.html" class="text-md m-0 text-white">StartupToken docs 1.0.0</a>
           <ul class="navbar-nav mx-auto">
-            <li class="nav-item"> <a class="nav-link" href="start.html">Get started</a> </li>
+            <li class="nav-item text-light"> <a class="nav-link" href="start.html">Get started</a> </li>
             <li class="nav-item"> <a class="nav-link" href="ai.html">Information Architecture</a> </li>
             <li class="nav-item"> <a class="nav-link" href="personas.html">Personas</a> </li>
             <li class="nav-item"> <a class="nav-link" href="rolemodel.html">Role Model</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="journey.html">User Journey</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="journey.common.html">Common Journeys</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="changelog.html">Changelog</a> </li>
+            <li class="dropdown my-2"> <a class="dropdown-toggle text-light" data-toggle="dropdown" href="journey.html">User Journey <span class="caret"></span></a> </li>
+            <ul class="dropdown-menu">
+              <li><a href="journey.reg_signin.html">Common Journeys</a> </li>
+              <li><a href="#">Page 1-2</a></li>
+            </ul>
+            <li class="nav-item" > <a class="nav-link" href="changelog.html">Changelog</a> </li>
             <li class="nav-item"> <a class="nav-link" href="extra.html">Extra</a> </li>
           </ul>
         </div>
