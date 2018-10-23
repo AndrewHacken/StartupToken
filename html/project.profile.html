@@ -16,7 +16,31 @@
   <link rel="stylesheet" href="../assets/scss/theme.css">
 </head>
 
-<body class="layout-column          pace-done pace-done" data-class="">
+<body class="layout-column                   pace-done pace-done pace-done" data-class="">
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
   <div class="pace  pace-inactive">
     <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
       <div class="pace-progress-inner"></div>
@@ -36,7 +60,7 @@
     <div class="pace-activity"></div>
   </div>
   <header id="header" class="page-header box-shadow animate fadeInDown sticky bg-white" data-class="bg-white">
-    <div class="navbar navbar-expand-lg bg-primary" >
+    <div class="navbar navbar-expand-lg bg-primary">
       <!-- btn to toggle sidenav on small screen -->
       <a class="d-lg-none i-con-h-a px-1" data-toggle="modal" data-target="#aside">
         <i class="i-con i-con-menu text-muted"></i>
@@ -227,7 +251,7 @@
                 </a>
               </div>
               <div class="col-4 b-r">
-                <a href="app.mail.html" class="py-3 d-block i-con-h-a">
+                <a href="app.mail.integration.html" class="py-3 d-block i-con-h-a">
                   <i class="i-con i-con-mail"><i></i></i>
                 </a>
               </div>
@@ -257,7 +281,7 @@
       </ul>
     </div>
   </header>
-  <div id="main" class="layout-row flex" >
+  <div id="main" class="layout-row flex">
     <!-- ############ LAYOUT START-->
     <!-- ############ Aside START-->
     <div id="aside" class="page-sidenav no-shrink nav-expand animate fadeInLeft fade sticky bg-white" aria-hidden="true" data-class="bg-white">
@@ -298,7 +322,7 @@
                 </a>
               </li>
               <li>
-                <a href="app.mail.html" class="i-con-h-a">
+                <a href="app.mail.integration.html" class="i-con-h-a">
                   <span class="nav-icon">
                     <i class="i-con i-con-mail"><i></i></i>
                   </span>
@@ -333,7 +357,7 @@
                 <span>Personal</span>
               </li>
               <li class="">
-                <a href="user.profile.html" class="i-con-h-a" >
+                <a href="user.profile.html" class="i-con-h-a">
                   <span class="nav-icon">
                     <i class="i-con i-con-user"><i class=""></i></i>
                   </span>
@@ -341,7 +365,7 @@
                 </a>
               </li>
               <li class="">
-                <a href="user.profile.html" class="i-con-h-a" >
+                <a href="user.profile.html" class="i-con-h-a">
                   <span class="nav-icon">
                     <i class="i-con i-con-grid"><i class=""></i></i>
                   </span>
@@ -389,9 +413,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12" >
+        <div class="col-md-12" style="">
           <div class="card">
-            <div class="card-header bg-dark bg-img p-0 no-border" data-stellar-background-ratio="0.1" style="background-image:url(../assets/img/c2.jpg);" data-plugin="stellar">
+            <div class="card-header bg-dark bg-img p-0 no-border" data-stellar-background-ratio="0.1" style="background-image: url(&quot;../assets/img/c2.jpg&quot;); background-position: 50% -133.2px;">
               <div class="bg-dark-overlay r-2x no-r-b">
                 <div class="d-md-flex">
                   <div class="p-4">
@@ -403,8 +427,8 @@
                         </span>
                       </a>
                       <div class="mx-3">
-                        <h5 class="mt-2">Great Company</h5>
-                        <div class="text-muted"><span class="m-r">Blockchain</span> <small><i class="fa fa-map-marker mr-2"></i>London, UK</small></div>
+                        <h5 class="mt-2">BEXAM</h5>
+                        <div class="text-muted"><span class="m-r">bexam.io</span> </div>
                       </div>
                     </div>
                   </div>
@@ -427,589 +451,782 @@
               </div>
             </div>
           </div>
-          <h2 class="">Profile</h2>
-          <div class="card">
-            <div class="card-body">
+          <ul class="nav nav-tabs">
+            <li class="nav-item"> <a href="" class="nav-link active show" data-toggle="tab" data-target="#tabone">Profile</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo">Activity</a> </li>
+            <li class="nav-item"> <a href="" class="nav-link" data-toggle="tab" data-target="#tabthree">Documents</a> </li>
+          </ul>
+          <div class="tab-content mt-2">
+            <div class="tab-pane fade active show" id="tabone" role="tabpanel">
+              <!-- Tab one -->
+              <h4 class="" contenteditable="true">About Bexam</h4>
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="p-4 b-b d-flex">
+                        <a href="#" class="list-title h-1x"> </a><span class="flex my-1">Full Due Dilligence</span><a class="list-group-item i-con-h-a">
+                          <i class="mr-2 i-con i-con-close"><i></i></i> Dislike </a>
+                        <div>
+                          <a class="list-group-item i-con-h-a">
+                            <i class="mr-2 i-con i-con-like"><i></i></i> Like </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p>Some text as a summary of due dilligence.</p>
+                </div>
+              </div>
+              <div class="col-12">
+              </div>
+              <div class="col-md-12">
+                <h2 class="">Tokenomics</h2>
+                <div class="row">
+                  <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <strong>Team</strong>
+                      </div>
+                      <div class="p-4">
+                        <div class="easypiechart" data-percent="75" data-line-width="5" data-size="100" data-scale-length="0" data-line-cap="square">
+                          <div class="text-primary text-md"> 75 </div>
+                          <canvas height="100" width="100"></canvas>
+                        </div>
+                        <div class="mt-3 text-sm text-center text-muted">Increasing in last week</div>
+                      </div>
+                      <div class="card-footer text-left">
+                        <div class="row">
+                          <div class="col">
+                            <div>Item one</div>
+                            <div>Item two</div>
+                            <div>Item three</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <strong>Project</strong>
+                      </div>
+                      <div class="p-4">
+                        <div class="easypiechart" data-percent="25" data-line-width="5" data-size="100" data-scale-length="0" data-line-cap="square">
+                          <div class="text-danger text-md"> 25 </div>
+                          <canvas height="100" width="100"></canvas>
+                        </div>
+                        <div class="mt-3 text-sm text-center text-muted"></div>
+                      </div>
+                      <div class="card-footer text-left">
+                        <div class="row">
+                          <div class="col">
+                            <div>Item one</div>
+                            <div>Item two</div>
+                            <div>Item three</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <strong>Social Media</strong>
+                      </div>
+                      <div class="p-4">
+                        <div class="easypiechart" data-percent="45" data-line-width="5" data-size="100" data-scale-length="0" data-line-cap="square">
+                          <div class="text-danger text-md"> 45 </div>
+                          <canvas height="100" width="100"></canvas>
+                        </div>
+                        <div class="mt-3 text-sm text-center text-muted"></div>
+                      </div>
+                      <div class="card-footer text-left">
+                        <div class="row">
+                          <div class="col">
+                            <div>Item one</div>
+                            <div>Item two</div>
+                            <div>Item three</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3">
+                    <div class="card">
+                      <div class="card-header">
+                        <strong>FAQ</strong>
+                      </div>
+                      <div class="p-4">
+                        <div class="easypiechart" data-percent="65" data-line-width="5" data-size="100" data-scale-length="0" data-line-cap="square">
+                          <div class="text-success text-md"> 65 </div>
+                          <canvas height="100" width="100"></canvas>
+                        </div>
+                        <div class="mt-3 text-sm text-center text-muted"></div>
+                      </div>
+                      <div class="card-footer text-left">
+                        <div class="row">
+                          <div class="col">
+                            <div>Item one</div>
+                            <div>Item two</div>
+                            <div>Item three</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <h2 class="">Project Status</h2>
+                </div>
+                <!--div class="col-md-6 col-lg-3" -->
+                <div class="col-md-12">
+                  <div class="card-group mb-4">
+                    <div class="card">
+                      <div class="card-body border">
+                        <h5 class="card-title">Selection</h5>
+                        <div class="timeline animates animates-fadeInRight mb-4">
+                          <div class="tl-item  active">
+                            <div class="tl-dot  b-info">
+                            </div>
+                            <div class="tl-content">
+                              <div class="">Due Dilligence </div>
+                              <div class="tl-date text-muted mt-1">2 days ago</div>
+                            </div>
+                          </div>
+                          <div class="tl-item  ">
+                            <div class="tl-dot  b-primary">
+                            </div>
+                            <div class="tl-content">
+                              <div class=""><a href="#">Community approval</a> </div>
+                              <div class="tl-date text-muted mt-1">21 July</div>
+                            </div>
+                          </div>
+                          <div class="tl-item  ">
+                            <div class="tl-dot  b-success">
+                            </div>
+                            <div class="tl-content">
+                              <div class="">Mentor approval from <a href="#">@Addel</a></div>
+                              <div class="tl-date text-muted mt-1">2 hours ago</div>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="card-text">Some text with last updates</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Security</h5>
+                        <div class="timeline animates animates-fadeInRight mb-4">
+                          <div class="tl-item  active">
+                            <div class="tl-dot  b-info">
+                            </div>
+                            <div class="tl-content">
+                              <div class="">Domain name </div>
+                              <div class="tl-date text-muted mt-1">2 days ago</div>
+                            </div>
+                          </div>
+                          <div class="tl-item  ">
+                            <div class="tl-dot  b-primary">
+                            </div>
+                            <div class="tl-content">
+                              <div class=""><a href="#">Social accounts</a> </div>
+                              <div class="tl-date text-muted mt-1">21 July</div>
+                            </div>
+                          </div>
+                          <div class="tl-item  ">
+                            <div class="tl-dot  b-success">
+                            </div>
+                            <div class="tl-content">
+                              <div class="">Ens/Token </div>
+                              <div class="tl-date text-muted mt-1">2 hours ago</div>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="card-text">Some text with last updates</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Acceleration</h5>
+                        <div class="timeline animates animates-fadeInRight mb-4">
+                          <div class="tl-item  active">
+                            <div class="tl-dot  b-info">
+                            </div>
+                            <div class="tl-content">
+                              <div class="">Incorporation </div>
+                              <div class="tl-date text-muted mt-1">2 days ago</div>
+                            </div>
+                          </div>
+                          <div class="tl-item  ">
+                            <div class="tl-dot  b-primary">
+                            </div>
+                            <div class="tl-content">
+                              <div class=""><a href="#">Pre sale</a> </div>
+                              <div class="tl-date text-muted mt-1">21 July</div>
+                            </div>
+                          </div>
+                          <div class="tl-item  ">
+                            <div class="tl-dot  b-success">
+                            </div>
+                            <div class="tl-content">
+                              <div class="">Public sale</div>
+                              <div class="tl-date text-muted mt-1">2 hours ago</div>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="card-text">Some text with last updates</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Product</h5>
+                        <div class="timeline animates animates-fadeInRight mb-4">
+                          <div class="tl-item  active">
+                            <div class="tl-dot  b-info">
+                            </div>
+                            <div class="tl-content">
+                              <div class="">MVP </div>
+                              <div class="tl-date text-muted mt-1">2 days ago</div>
+                            </div>
+                          </div>
+                          <div class="tl-item  ">
+                            <div class="tl-dot  b-primary">
+                            </div>
+                            <div class="tl-content">
+                              <div class=""><a href="#">Alpha</a> </div>
+                              <div class="tl-date text-muted mt-1">21 July</div>
+                            </div>
+                          </div>
+                          <div class="tl-item  ">
+                            <div class="tl-dot  b-success">
+                            </div>
+                            <div class="tl-content">
+                              <div class="">Beta</div>
+                              <div class="tl-date text-muted mt-1">2 hours ago</div>
+                            </div>
+                          </div>
+                          <div class="tl-item  ">
+                            <div class="tl-dot  b-success">
+                            </div>
+                            <div class="tl-content">
+                              <div class="">Main net</div>
+                              <div class="tl-date text-muted mt-1">yesturday</div>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="card-text">Some text with last updates</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ############ Launch Pad-->
+                <div class="col-md-12">
+                  <h2 class="">Launch Pad</h2>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4>Votes</h4>
+                          <h6 class="text-muted">Subtitle</h6>
+                          <p>Some quick example text to build on the card title .</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4>Comments</h4>
+                          <h6 class="text-muted">Subtitle</h6>
+                          <p>Some quick example text to build on the card title .</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4>Sentiment</h4>
+                          <h6 class="text-muted">Subtitle</h6>
+                          <p>Some quick example text to build on the card title .</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="card-body">
+                          <h4>Score</h4>
+                          <h6 class="text-muted">Subtitle</h6>
+                          <p>Some quick example text to build on the card title .</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <h2 class="text-md mb-0">Community</h2>
+                  <div class="row">
+                    <div class="col-md-8">
+                      <div class="padding">
+                        <div class="table-responsive">
+                          <table id="datatable" class="table table-theme table-row v-middle">
+                            <thead>
+                              <tr>
+                                <th><span class="text-muted">ID</span></th>
+                                <th><span class="text-muted"></span></th>
+                                <th><span class="text-muted">Name(Status)</span></th>
+                                <th><span class="text-muted">Tokens</span></th>
+                                <th><span class="text-muted">Out of</span></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class=" " data-id="3">
+                                <td>
+                                  <small class="text-muted">1</small>
+                                </td>
+                                <td>
+                                  <a href="#">
+                                    <span class="w-32 avatar circle bg-info-lt">
+                                      <img src="../assets/img/a3.jpg" alt=".">
+                                    </span>
+                                  </a>
+                                </td>
+                                <td class="flex">
+                                  <a href="#" class="item-author ">Airdrop</a>
+                                  <div class="item-except text-muted h-1x"> Ongoing </div>
+                                </td>
+                                <td>
+                                  <span class="item-amount text-sm "> 3000 </span>
+                                </td>
+                                <td>
+                                  <span class="item-amount text-sm "> 5000 </span>
+                                </td>
+                              </tr>
+                              <tr class=" " data-id="2">
+                                <td>
+                                  <small class="text-muted">2</small>
+                                </td>
+                                <td>
+                                  <a href="#">
+                                    <span class="w-32 avatar circle bg-primary-lt">
+                                      <img src="../assets/img/a2.jpg" alt=".">
+                                    </span>
+                                  </a>
+                                </td>
+                                <td class="flex">
+                                  <a href="#" class="item-author ">Bounty</a>
+                                  <div class="item-except text-muted h-1x"> Done </div>
+                                </td>
+                                <td>
+                                  <span class="item-amount text-sm "> 2500 </span>
+                                </td>
+                                <td>
+                                  <span class="item-amount text-sm "> 10000 </span>
+                                </td>
+                              </tr>
+                              <tr class=" " data-id="10">
+                                <td>
+                                  <small class="text-muted">3</small>
+                                </td>
+                                <td>
+                                  <a href="#">
+                                    <span class="w-32 avatar circle bg-warning-lt">
+                                      <img src="../assets/img/a10.jpg" alt=".">
+                                    </span>
+                                  </a>
+                                </td>
+                                <td class="flex">
+                                  <a href="#" class="item-author ">WP review</a>
+                                  <div class="item-except text-muted h-1x"> Ongoing </div>
+                                </td>
+                                <td>
+                                  <span class="item-amount text-sm "> 25000 </span>
+                                </td>
+                                <td>
+                                  <span class="item-amount text-sm "> 100000 </span>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- ############ Content END-->
+                  <!-- ############ LAYOUT END-->
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4>Mentoring</h4>
+                        <h6 class="text-muted">Subtitle</h6>
+                        <p>Feedbacks<br>Classes<br>Tranings with professionals<br><br><br></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4>Legal</h4>
+                        <h6 class="text-muted">Subtitle</h6>
+                        <p>Incorporation<br>Captable<br>Sale terms &amp; conditions<br>Contracts<br>Bank account</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4>Code</h4>
+                        <h6 class="text-muted">Subtitle</h6>
+                        <p>Github account active<br>Code auditing<br>Reviews and improvements<br>PenTest<br><br></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4>Marketing</h4>
+                        <h6 class="text-muted">Subtitle</h6>
+                        <p>Media posting<br>Content creation<br>Community management&nbsp;<br>PR agreement&nbsp;<br><br></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h2 class="">Partners services</h2>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card"> <img class="card-img" src="../assets/img/Services/how-much-are-bank-ceos-paid-we-have-the-answer.jpg" alt="Card image">
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h2 class="text-white">Banking</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card"> <img class="card-img" src="../assets/img/Services/morrisville-accounting.jpg" alt="Card image">
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h2 class="text-white">Accounting</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card"> <img class="card-img" src="../assets/img/Services/law-education-series-2-1467427-1280x960.jpg" alt="Card image">
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h2 class="text-white">Legal</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card"> <img class="card-img" src="../assets/img/Services/973621_997340-code-wallpapers_2560x1600_h.jpg" alt="Card image">
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h2 class="text-white">Development</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card"> <img class="card-img" src="../assets/img/Services/pexels-photo-730567.jpeg" alt="Card image">
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h2 class="text-white">Exchange</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card"> <img class="card-img" src="../assets/img/Services/973621_997340-code-wallpapers_2560x1600_h.jpg" alt="Card image">
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h2 class="text-white">Code Auditing</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card"> <img class="card-img" src="../assets/img/Services/Credit - Kaleider’s -From The Light Of Fire, Our Dancing Shadows.jpg" alt="Card image">
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h2 class="text-white">KYC</h2>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card"> <img class="card-img" src="../assets/img/Services/ws_Green_Sprout_1280x960.jpg" alt="Card image">
+                      <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h2 class="text-white">Funding</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tabtwo" role="tabpanel">
+              <div>
+                <div>
+                  <h5 class="card-title">Acceleration Road Map&nbsp;</h5>
+                  <div class="timeline animates animates-fadeInRight mb-4">
+                    <div class="tl-item  active">
+                      <div class="tl-dot  b-info">
+                      </div>
+                      <div class="tl-content">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4>Acceleration Started</h4>
+                            <div class="tl-date text-muted mt-1">October 19th</div>
+                            <p>After winning October's contest Bexam starts an Acceleration Program&nbsp;</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tl-item  ">
+                      <div class="tl-dot  b-primary">
+                      </div>
+                      <div class="tl-content">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4>Assessment Form</h4>
+                            <div class="tl-date text-muted mt-1">Yesturday</div>
+                            <p>Assessment form was successfully filled.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tl-item  ">
+                      <div class="tl-dot  b-success">
+                      </div>
+                      <div class="tl-content">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4>Assessment</h4>
+                            <div class="tl-date text-muted mt-1">2 hours ago</div>
+                            <p>Assessment was completed with <a href="#">@Yacine Teraï</a> and <a href="#">@Sebastien Rouxel</a> </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tl-item  ">
+                      <div class="tl-dot  b-success">
+                      </div>
+                      <div class="tl-content">
+                        <div class="card">
+                          <div class="card-body">
+                            <h4 contenteditable="true">Main Mentor Selection</h4>
+                            <div class="tl-date text-muted mt-1">In progress</div>
+                            <p>The request for Main mentor was provided. </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tabthree" role="tabpanel">
               <div class="row">
                 <div class="col-md-12">
-                  <div class="p-4 b-b d-flex">
-                    <a href="#" class="list-title h-1x" > </a><span class="flex my-1">Full Due Dilligence</span><a class="list-group-item i-con-h-a">
-                      <i class="mr-2 i-con i-con-close"><i></i></i> Dislike </a>
-                    <div>
-                      <a class="list-group-item i-con-h-a">
-                        <i class="mr-2 i-con i-con-like"><i></i></i> Like </a>
-                    </div>
-                  </div>
+                  <h4 class="">Documents</h4>
                 </div>
-              </div>
-              <p>Some text as a summary of due dilligence.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12" >
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="" >Documents</h2>
-            </div>
-            <div class="col-md-12">
-              <div class="list list-grid list-bordered list-grid-padding list-index block">
-                <div class="p-4 b-b d-flex">
-                  <a class="list-group-item i-con-h-a">
-                    <i class="mr-2 i-con i-con-file"><i></i></i>
-                    <strong>White Paper</strong>
-                  </a><a href="#" class="list-title h-1x" > </a><span class="flex"></span><a class="list-group-item i-con-h-a">
-                    <i class="mr-2 i-con i-con-close"><i></i></i> Dislike </a>
-                  <div>
-                    <a class="list-group-item i-con-h-a">
-                      <i class="mr-2 i-con i-con-like"><i></i></i> Like </a>
-                  </div>
+                <div class="table-responsive">
+                  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+                  <table class="table table-theme table-row v-middle">
+                    <thead>
+                      <tr>
+                        <th style="width:20px;">
+                          <label class="ui-check m-0">
+                            <input type="checkbox"><i></i>
+                          </label>
+                        </th>
+                        <th class="text-muted">Owner</th>
+                        <th class="text-muted sortable" data-toggle-class="asc">Document</th>
+                        <th class="text-muted">Dislikes</th>
+                        <th class="text-muted">Likes</th>
+                        <th style="width:50px;"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class=" v-middle" data-id="12">
+                        <td>
+                          <label class="ui-check m-0 ">
+                            <input type="checkbox" name="id" value="12">
+                            <i></i>
+                          </label>
+                        </td>
+                        <td>
+                          <a href="#">
+                            <span class="w-32 avatar circle bg-info-lt"> D </span>
+                          </a>
+                        </td>
+                        <td class="flex">
+                          <a href="#" class="item-author ">White Paper</a>
+                          <div class="item-except text-muted h-1x"> Description of the project and its values </div>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 14 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 20 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
+                        </td>
+                        <td>
+                          <div class="item-action dropdown">
+                            <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
+                            <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
+                              <a class="dropdown-item" href="#"> See detail </a>
+                              <a class="dropdown-item"> Download </a>
+                              <a class="dropdown-item"> Edit </a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item"> Delete item </a>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class=" v-middle" data-id="12">
+                        <td>
+                          <label class="ui-check m-0 ">
+                            <input type="checkbox" name="id" value="12">
+                            <i></i>
+                          </label>
+                        </td>
+                        <td>
+                          <a href="#">
+                            <span class="w-32 avatar circle bg-info-lt"> Y </span>
+                          </a>
+                        </td>
+                        <td class="flex">
+                          <a href="#" class="item-author ">One Pager</a>
+                          <div class="item-except text-muted h-1x"> Description </div>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 8 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 31 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
+                        </td>
+                        <td>
+                          <div class="item-action dropdown">
+                            <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
+                            <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
+                              <a class="dropdown-item" href="#"> See detail </a>
+                              <a class="dropdown-item"> Download </a>
+                              <a class="dropdown-item"> Edit </a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item"> Delete item </a>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class=" v-middle" data-id="12">
+                        <td>
+                          <label class="ui-check m-0 ">
+                            <input type="checkbox" name="id" value="12">
+                            <i></i>
+                          </label>
+                        </td>
+                        <td>
+                          <a href="#">
+                            <span class="w-32 avatar circle bg-info-lt"> Y </span>
+                          </a>
+                        </td>
+                        <td class="flex">
+                          <a href="#" class="item-author ">3 Pager</a>
+                          <div class="item-except text-muted h-1x"> Description </div>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 25 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 41 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
+                        </td>
+                        <td>
+                          <div class="item-action dropdown">
+                            <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
+                            <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
+                              <a class="dropdown-item" href="#"> See detail </a>
+                              <a class="dropdown-item"> Download </a>
+                              <a class="dropdown-item"> Edit </a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item"> Delete item </a>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr class=" v-middle" data-id="12">
+                        <td>
+                          <label class="ui-check m-0 ">
+                            <input type="checkbox" name="id" value="12">
+                            <i></i>
+                          </label>
+                        </td>
+                        <td>
+                          <a href="#">
+                            <span class="w-32 avatar circle bg-info-lt"> Y </span>
+                          </a>
+                        </td>
+                        <td class="flex">
+                          <a href="#" class="item-author ">Video</a>
+                          <div class="item-except text-muted h-1x"> <a href="#">@Paulo D’Alberti</a> (CMO) speach about BEXAM.io project </div>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 25 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 41 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
+                        </td>
+                        <td>
+                          <div class="item-action dropdown">
+                            <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
+                            <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
+                              <a class="dropdown-item" href="#"> See detail </a>
+                              <a class="dropdown-item"> Download </a>
+                              <a class="dropdown-item"> Edit </a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item"> Delete item </a>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <!-- build:js ../assets/js/site.min.js -->
+                      <!-- jQuery -->
+                      <script src="../libs/jquery/dist/jquery.min.js"></script>
+                      <!-- Bootstrap -->
+                      <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
+                      <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+                      <!-- ajax page -->
+                      <script src="../libs/pace-progress/pace.min.js"></script>
+                      <script src="../libs/pjax/pjax.js"></script>
+                      <script src="../assets/js/ajax.js"></script>
+                      <!-- lazyload plugin -->
+                      <script src="../assets/js/lazyload.config.js"></script>
+                      <script src="../assets/js/lazyload.js"></script>
+                      <script src="../assets/js/plugin.js"></script>
+                      <!-- theme -->
+                      <script src="../assets/js/theme.js"></script>
+                      <!-- endbuild -->
+                      <script src="../libs/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+                      <script src="../libs/typeahead.js/dist/typeahead.bundle.min.js" style=""></script>
+                      <script src="../assets/js/plugins/typeahead.js" style=""></script>
+                      <script src="../libs/screenfull/dist/screenfull.js" style=""></script>
+                      <script src="../assets/js/plugins/screenfull.js" style=""></script>
+                      <script src="../libs/datatables/media/js/jquery.dataTables.min.js"></script>
+                      <script src="../libs/datatables/media/js/jquery.dataTables.min.js"></script>
+                      <script src="../libs/datatables.net-bs4/js/dataTables.bootstrap4.js"></script>
+                      <script src="../libs/datatables.net-bs4/js/dataTables.bootstrap4.js"></script>
+                      <script src="../assets/js/plugins/datatable.js"></script>
+                      <script src="../assets/js/plugins/datatable.js"></script>
+                      <script src="../libs/jquery.stellar/jquery.stellar.min.js"></script>
+                      <script src="../assets/js/plugins/stellar.js"></script>
+                      <script src="../libs/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+                    </tbody>
+                  </table>
                 </div>
-                <div class="p-4 b-b d-flex">
-                  <a class="list-group-item i-con-h-a">
-                    <i class="mr-2 i-con i-con-file"><i></i></i>
-                    <strong>1 Pager</strong>
-                  </a><a href="#" class="list-title h-1x" > </a><span class="flex"></span><a class="list-group-item i-con-h-a">
-                    <i class="mr-2 i-con i-con-close"><i></i></i> Dislike </a>
-                  <div>
-                    <a class="list-group-item i-con-h-a">
-                      <i class="mr-2 i-con i-con-like"><i></i></i> Like </a>
-                  </div>
-                </div>
-                <div class="p-4 b-b d-flex">
-                  <a class="list-group-item i-con-h-a">
-                    <i class="mr-2 i-con i-con-file"><i></i></i>
-                    <strong>3 Pager</strong>
-                  </a><a href="#" class="list-title h-1x" > </a><span class="flex"></span><a class="list-group-item i-con-h-a">
-                    <i class="mr-2 i-con i-con-close"><i></i></i> Dislike </a>
-                  <div>
-                    <a class="list-group-item i-con-h-a">
-                      <i class="mr-2 i-con i-con-like"><i></i></i> Like </a>
-                  </div>
-                </div>
-                <div class="p-4 b-b d-flex">
-                  <a class="list-group-item i-con-h-a">
-                    <i class="mr-2 i-con i-con-video"><i></i></i>
-                    <strong>Video</strong>
-                  </a><a href="#" class="list-title h-1x" > </a><span class="flex"></span>
-                  <a class="list-group-item i-con-h-a">
-                    <i class="mr-2 i-con i-con-close"><i></i></i> Dislike </a>
-                  <div>
-                    <a class="list-group-item i-con-h-a">
-                      <i class="mr-2 i-con i-con-like"><i></i></i> Like </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12" >
-          <h2 class="" >Tokenomics</h2>
-        </div>
-        <div class="col-md-6 col-lg-3" >
-          <div class="card">
-            <div class="card-header">
-              <strong>Team</strong>
-            </div>
-            <div class="p-4">
-              <div class="easypiechart" data-percent="75" data-line-width="5" data-size="100" data-scale-length="0" data-line-cap="square" data-option="{barColor: theme.color.primary}" data-plugin="easyPieChart">
-                <div class="text-primary text-md"> 75 </div>
-              </div>
-              <div class="mt-3 text-sm text-center text-muted">Increasing in last week</div>
-            </div>
-            <div class="card-footer text-left">
-              <div class="row">
-                <div class="col">
-                  <div>Item one</div>
-                  <div>Item two</div>
-                  <div>Item three</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3" >
-          <div class="card">
-            <div class="card-header">
-              <strong>Project</strong>
-            </div>
-            <div class="p-4">
-              <div class="easypiechart" data-plugin="easyPieChart" data-option="{barColor: theme.color.warning}" data-percent="25" data-line-width="5" data-size="100" data-scale-length="0" data-line-cap="square">
-                <div class="text-danger text-md"> 25 </div>
-              </div>
-              <div class="mt-3 text-sm text-center text-muted"></div>
-            </div>
-            <div class="card-footer text-left">
-              <div class="row">
-                <div class="col">
-                  <div>Item one</div>
-                  <div>Item two</div>
-                  <div>Item three</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3" >
-          <div class="card">
-            <div class="card-header">
-              <strong>Social Media</strong>
-            </div>
-            <div class="p-4">
-              <div class="easypiechart" data-plugin="easyPieChart" data-option="{barColor: theme.color.danger}" data-percent="45" data-line-width="5" data-size="100" data-scale-length="0" data-line-cap="square">
-                <div class="text-danger text-md"> 45 </div>
-              </div>
-              <div class="mt-3 text-sm text-center text-muted"></div>
-            </div>
-            <div class="card-footer text-left">
-              <div class="row">
-                <div class="col">
-                  <div>Item one</div>
-                  <div>Item two</div>
-                  <div>Item three</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3" >
-          <div class="card">
-            <div class="card-header">
-              <strong>FAQ</strong>
-            </div>
-            <div class="p-4">
-              <div class="easypiechart" data-plugin="easyPieChart" data-option="{barColor: theme.color.success}" data-percent="65" data-line-width="5" data-size="100" data-scale-length="0" data-line-cap="square">
-                <div class="text-success text-md"> 65 </div>
-              </div>
-              <div class="mt-3 text-sm text-center text-muted"></div>
-            </div>
-            <div class="card-footer text-left">
-              <div class="row">
-                <div class="col">
-                  <div>Item one</div>
-                  <div>Item two</div>
-                  <div>Item three</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12" >
-          <h2 class="" >Project Status</h2>
-        </div>
-        <!--div class="col-md-6 col-lg-3" -->
-        <div class="col-md-12" >
-          <div class="card-group mb-4">
-            <div class="card">
-              <div class="card-body border">
-                <h5 class="card-title">Selection</h5>
-                <div class="timeline animates animates-fadeInRight mb-4">
-                  <div class="tl-item  active">
-                    <div class="tl-dot  b-info">
-                    </div>
-                    <div class="tl-content">
-                      <div class="">Due Dilligence </div>
-                      <div class="tl-date text-muted mt-1">2 days ago</div>
-                    </div>
-                  </div>
-                  <div class="tl-item  ">
-                    <div class="tl-dot  b-primary">
-                    </div>
-                    <div class="tl-content">
-                      <div class=""><a href="#">Community approval</a> </div>
-                      <div class="tl-date text-muted mt-1">21 July</div>
-                    </div>
-                  </div>
-                  <div class="tl-item  ">
-                    <div class="tl-dot  b-success">
-                    </div>
-                    <div class="tl-content">
-                      <div class="">Mentor approval from <a href="#">@Addel</a></div>
-                      <div class="tl-date text-muted mt-1">2 hours ago</div>
-                    </div>
-                  </div>
-                </div>
-                <p class="card-text">Some text with last updates</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Security</h5>
-                <div class="timeline animates animates-fadeInRight mb-4">
-                  <div class="tl-item  active">
-                    <div class="tl-dot  b-info">
-                    </div>
-                    <div class="tl-content">
-                      <div class="">Domain name </div>
-                      <div class="tl-date text-muted mt-1">2 days ago</div>
-                    </div>
-                  </div>
-                  <div class="tl-item  ">
-                    <div class="tl-dot  b-primary">
-                    </div>
-                    <div class="tl-content">
-                      <div class=""><a href="#">Social accounts</a> </div>
-                      <div class="tl-date text-muted mt-1">21 July</div>
-                    </div>
-                  </div>
-                  <div class="tl-item  ">
-                    <div class="tl-dot  b-success">
-                    </div>
-                    <div class="tl-content">
-                      <div class="">Ens/Token </div>
-                      <div class="tl-date text-muted mt-1">2 hours ago</div>
-                    </div>
-                  </div>
-                </div>
-                <p class="card-text">Some text with last updates</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Acceleration</h5>
-                <div class="timeline animates animates-fadeInRight mb-4">
-                  <div class="tl-item  active">
-                    <div class="tl-dot  b-info">
-                    </div>
-                    <div class="tl-content">
-                      <div class="">Incorporation </div>
-                      <div class="tl-date text-muted mt-1">2 days ago</div>
-                    </div>
-                  </div>
-                  <div class="tl-item  ">
-                    <div class="tl-dot  b-primary">
-                    </div>
-                    <div class="tl-content">
-                      <div class=""><a href="#">Pre sale</a> </div>
-                      <div class="tl-date text-muted mt-1">21 July</div>
-                    </div>
-                  </div>
-                  <div class="tl-item  ">
-                    <div class="tl-dot  b-success">
-                    </div>
-                    <div class="tl-content">
-                      <div class="">Public sale</div>
-                      <div class="tl-date text-muted mt-1">2 hours ago</div>
-                    </div>
-                  </div>
-                </div>
-                <p class="card-text">Some text with last updates</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Product</h5>
-                <div class="timeline animates animates-fadeInRight mb-4">
-                  <div class="tl-item  active">
-                    <div class="tl-dot  b-info">
-                    </div>
-                    <div class="tl-content">
-                      <div class="">MVP </div>
-                      <div class="tl-date text-muted mt-1">2 days ago</div>
-                    </div>
-                  </div>
-                  <div class="tl-item  ">
-                    <div class="tl-dot  b-primary">
-                    </div>
-                    <div class="tl-content">
-                      <div class=""><a href="#">Alpha</a> </div>
-                      <div class="tl-date text-muted mt-1">21 July</div>
-                    </div>
-                  </div>
-                  <div class="tl-item  ">
-                    <div class="tl-dot  b-success">
-                    </div>
-                    <div class="tl-content">
-                      <div class="">Beta</div>
-                      <div class="tl-date text-muted mt-1">2 hours ago</div>
-                    </div>
-                  </div>
-                  <div class="tl-item  ">
-                    <div class="tl-dot  b-success">
-                    </div>
-                    <div class="tl-content">
-                      <div class="">Main net</div>
-                      <div class="tl-date text-muted mt-1">yesturday</div>
-                    </div>
-                  </div>
-                </div>
-                <p class="card-text">Some text with last updates</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- ############ Launch Pad-->
-      <div class="col-md-12" >
-        <h2 class="" >Launch Pad</h2>
-        <div class="row">
-          <div class="col-md-3" >
-            <div class="card">
-              <div class="card-body">
-                <h4>Votes</h4>
-                <h6 class="text-muted">Subtitle</h6>
-                <p>Some quick example text to build on the card title .</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3" >
-            <div class="card">
-              <div class="card-body">
-                <h4>Comments</h4>
-                <h6 class="text-muted">Subtitle</h6>
-                <p>Some quick example text to build on the card title .</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3" >
-            <div class="card">
-              <div class="card-body">
-                <h4>Sentiment</h4>
-                <h6 class="text-muted">Subtitle</h6>
-                <p>Some quick example text to build on the card title .</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3" >
-            <div class="card">
-              <div class="card-body">
-                <h4>Score</h4>
-                <h6 class="text-muted">Subtitle</h6>
-                <p>Some quick example text to build on the card title .</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12" >
-        <h2 class="text-md mb-0">Community</h2>
-        <!--h1 class=""  >Community</h1-->
-        <div class="row">
-          <div class="col-md-8">
-            <div class="padding">
-              <div class="table-responsive">
-                <table id="datatable" class="table table-theme table-row v-middle">
-                  <thead>
-                    <tr>
-                      <th><span class="text-muted">ID</span></th>
-                      <th><span class="text-muted"></span></th>
-                      <th><span class="text-muted">Name(Status)</span></th>
-                      <th><span class="text-muted">Tokens</span></th>
-                      <th><span class="text-muted">Out of</span></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class=" " data-id="3">
-                      <td>
-                        <small class="text-muted">1</small>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <span class="w-32 avatar circle bg-info-lt">
-                            <img src="../assets/img/a3.jpg" alt=".">
-                          </span>
-                        </a>
-                      </td>
-                      <td class="flex">
-                        <a href="#" class="item-author ">Airdrop</a>
-                        <div class="item-except text-muted h-1x"> Ongoing </div>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 3000 </span>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 5000 </span>
-                      </td>
-                    </tr>
-                    <tr class=" " data-id="2">
-                      <td>
-                        <small class="text-muted">2</small>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <span class="w-32 avatar circle bg-primary-lt">
-                            <img src="../assets/img/a2.jpg" alt=".">
-                          </span>
-                        </a>
-                      </td>
-                      <td class="flex">
-                        <a href="#" class="item-author ">Bounty</a>
-                        <div class="item-except text-muted h-1x"> Done </div>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 2500 </span>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 10000 </span>
-                      </td>
-                    </tr>
-                    <tr class=" " data-id="10">
-                      <td>
-                        <small class="text-muted">3</small>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <span class="w-32 avatar circle bg-warning-lt">
-                            <img src="../assets/img/a10.jpg" alt=".">
-                          </span>
-                        </a>
-                      </td>
-                      <td class="flex">
-                        <a href="#" class="item-author ">WP review</a>
-                        <div class="item-except text-muted h-1x"> Ongoing </div>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 25000 </span>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 100000 </span>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4"></div>
-        </div>
-        <div class="row">
-          <!-- ############ Content END-->
-          <!-- ############ LAYOUT END-->
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">
-                <h4>Mentoring</h4>
-                <h6 class="text-muted">Subtitle</h6>
-                <p>Feedbacks<br>Classes<br>Tranings with professionals<br><br><br></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">
-                <h4>Legal</h4>
-                <h6 class="text-muted">Subtitle</h6>
-                <p>Incorporation<br>Captable<br>Sale terms &amp; conditions<br>Contracts<br>Bank account</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">
-                <h4>Code</h4>
-                <h6 class="text-muted">Subtitle</h6>
-                <p>Github account active<br>Code auditing<br>Reviews and improvements<br>PenTest<br><br></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card">
-              <div class="card-body">
-                <h4>Marketing</h4>
-                <h6 class="text-muted">Subtitle</h6>
-                <p>Media posting<br>Content creation<br>Community management&nbsp;<br>PR agreement&nbsp;<br><br></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <h2 class="">Partners services</h2>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card"> <img class="card-img" src="../assets/img/Services/how-much-are-bank-ceos-paid-we-have-the-answer.jpg" alt="Card image">
-              <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                <h2 class="text-white">Banking</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card"> <img class="card-img" src="../assets/img/Services/morrisville-accounting.jpg" alt="Card image">
-              <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                <h2 class="text-white">Accounting</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card"> <img class="card-img" src="../assets/img/Services/law-education-series-2-1467427-1280x960.jpg" alt="Card image">
-              <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                <h2 class="text-white">Legal</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card"> <img class="card-img" src="../assets/img/Services/973621_997340-code-wallpapers_2560x1600_h.jpg" alt="Card image">
-              <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                <h2 class="text-white">Development</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card"> <img class="card-img" src="../assets/img/Services/pexels-photo-730567.jpeg" alt="Card image">
-              <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                <h2 class="text-white">Exchange</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card"> <img class="card-img" src="../assets/img/Services/973621_997340-code-wallpapers_2560x1600_h.jpg" alt="Card image">
-              <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                <h2 class="text-white">Code Auditing</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card"> <img class="card-img" src="../assets/img/Services/Credit - Kaleider’s -From The Light Of Fire, Our Dancing Shadows.jpg" alt="Card image">
-              <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                <h2 class="text-white">KYC</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card"> <img class="card-img" src="../assets/img/Services/ws_Green_Sprout_1280x960.jpg" alt="Card image">
-              <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                <h2 class="text-white">Funding</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- build:js ../assets/js/site.min.js -->
-        <!-- jQuery -->
-        <script src="../libs/jquery/dist/jquery.min.js"></script>
-        <!-- Bootstrap -->
-        <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
-        <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
-        <!-- ajax page -->
-        <script src="../libs/pace-progress/pace.min.js"></script>
-        <script src="../libs/pjax/pjax.js"></script>
-        <script src="../assets/js/ajax.js"></script>
-        <!-- lazyload plugin -->
-        <script src="../assets/js/lazyload.config.js"></script>
-        <script src="../assets/js/lazyload.js"></script>
-        <script src="../assets/js/plugin.js"></script>
-        <!-- theme -->
-        <script src="../assets/js/theme.js"></script>
-        <!-- endbuild -->
-        <script src="../libs/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-      </div>
-      <script src="../libs/typeahead.js/dist/typeahead.bundle.min.js"></script>
-      <script src="../assets/js/plugins/typeahead.js"></script>
-      <script src="../libs/screenfull/dist/screenfull.js"></script>
-      <script src="../assets/js/plugins/screenfull.js"></script>
-      <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
     </div>
   </div>
-  <script src="../libs/datatables/media/js/jquery.dataTables.min.js"></script>
-  <script src="../libs/datatables/media/js/jquery.dataTables.min.js"></script>
-  <script src="../libs/datatables.net-bs4/js/dataTables.bootstrap4.js"></script>
-  <script src="../libs/datatables.net-bs4/js/dataTables.bootstrap4.js"></script>
-  <script src="../assets/js/plugins/datatable.js"></script>
-  <script src="../assets/js/plugins/datatable.js"></script>
 </body>
 
 </html>
