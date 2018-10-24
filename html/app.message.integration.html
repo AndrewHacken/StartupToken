@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Calendar | Bootstrap 4 Web Application</title>
+  <title>Mail | Bootstrap 4 Web Application</title>
   <meta name="description" content="Responsive, Bootstrap, BS4">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- style -->
@@ -12,31 +12,16 @@
   <link rel="stylesheet" href="../assets/css/i-con.css" type="text/css">
   <link rel="stylesheet" href="../assets/css/theme.css" type="text/css">
   <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
-  <link rel="stylesheet" href="../libs/fullcalendar/dist/fullcalendar.css" type="text/css">
-  <!-- endbuild -->
-  <!-- build:js ../assets/js/site.min.js -->
-  <!-- jQuery -->
-  <script src="../libs/jquery/dist/jquery.min.js"></script>
-  <!-- Bootstrap -->
-  <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
-  <!-- ajax page -->
-  <script src="../libs/pace-progress/pace.min.js"></script>
-  <script src="../libs/pjax/pjax.js"></script>
-  <script src="../assets/js/ajax.js"></script>
-  <!-- lazyload plugin -->
-  <script src="../assets/js/lazyload.config.js"></script>
-  <script src="../assets/js/lazyload.js"></script>
-  <script src="../assets/js/plugin.js"></script>
-  <!-- theme -->
-  <script src="../assets/js/theme.js"></script>
-  <!-- fullcalendar -->
-  <script src="../libs/moment/min/moment.min.js"></script>
-  <script src="../libs/fullcalendar/dist/fullcalendar.js"></script>
   <!-- endbuild -->
 </head>
 
-<body class="layout-column">
+<body class="layout-column  pace-done">
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
   <header id="header" class="page-header bg-white box-shadow animate fadeInDown">
     <div class="navbar navbar-expand-lg bg-primary">
       <!-- btn to toggle sidenav on small screen -->
@@ -128,15 +113,41 @@
           <div class="dropdown-menu dropdown-menu-right mt-3 w-md animate fadeIn p-0">
             <div class="scrollable hover" style="max-height: 250px">
               <div class="list list-row animates animates-fadeInUp">
-                <div class="list-item " data-id="11">
+                <div class="list-item " data-id="15">
                   <div>
                     <a href="#">
-                      <span class="w-32 avatar circle bg-info-lt"> K </span>
+                      <span class="w-32 avatar circle bg-success-lt"> G </span>
                     </a>
                   </div>
                   <div class="flex">
-                    <div class="item-feed h-2x"> Assessment session with <a href="#">StartupToken Team</a>
+                    <div class="item-feed h-2x"> We attempted to charge your <a href="#">Pro plan</a>
                     </div>
+                  </div>
+                </div>
+                <div class="list-item " data-id="3">
+                  <div>
+                    <a href="#">
+                      <span class="w-32 avatar circle bg-info-lt">
+                        <img src="../assets/img/a3.jpg" alt=".">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="flex">
+                    <div class="item-feed h-2x">
+                      <a href="#">@James</a> submit a support ticket </div>
+                  </div>
+                </div>
+                <div class="list-item " data-id="7">
+                  <div>
+                    <a href="#">
+                      <span class="w-32 avatar circle bg-primary-lt">
+                        <img src="../assets/img/a7.jpg" alt=".">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="flex">
+                    <div class="item-feed h-2x">
+                      <a href="#">Grantt</a> Send you a invitation to SWO </div>
                   </div>
                 </div>
                 <div class="list-item " data-id="9">
@@ -148,7 +159,7 @@
                     </a>
                   </div>
                   <div class="flex">
-                    <div class="item-feed h-2x"> Session with Main Mentor <a href="#">@Oliver</a> team </div>
+                    <div class="item-feed h-2x"> Added to <a href="#">GameTime</a> team </div>
                   </div>
                 </div>
                 <div class="list-item " data-id="4">
@@ -164,42 +175,15 @@
                       <a href="#">@Eddel</a> upload a media </div>
                   </div>
                 </div>
-                <div class="list-item " data-id="5">
+                <div class="list-item " data-id="11">
                   <div>
                     <a href="#">
-                      <span class="w-32 avatar circle bg-warning-lt">
-                        <img src="../assets/img/a5.jpg" alt=".">
-                      </span>
+                      <span class="w-32 avatar circle bg-info-lt"> K </span>
                     </a>
                   </div>
                   <div class="flex">
-                    <div class="item-feed h-2x"> @Eddel Competitive gaming <a href="#">ladders</a>
+                    <div class="item-feed h-2x"> Prepare the documentation for the <a href="#">Fitness app</a>
                     </div>
-                  </div>
-                </div>
-                <div class="list-item " data-id="8">
-                  <div>
-                    <a href="#">
-                      <span class="w-32 avatar circle bg-success-lt">
-                        <img src="../assets/img/a8.jpg" alt=".">
-                      </span>
-                    </a>
-                  </div>
-                  <div class="flex">
-                    <div class="item-feed h-2x"> Mike Added you to <a href="#">repo</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="list-item " data-id="2">
-                  <div>
-                    <a href="#">
-                      <span class="w-32 avatar circle bg-primary-lt">
-                        <img src="../assets/img/a2.jpg" alt=".">
-                      </span>
-                    </a>
-                  </div>
-                  <div class="flex">
-                    <div class="item-feed h-2x"> What's the project progress now </div>
                   </div>
                 </div>
               </div>
@@ -232,7 +216,7 @@
                 </a>
               </div>
               <div class="col-4 b-r">
-                <a href="app.mail.integration.html" class="py-3 d-block i-con-h-a">
+                <a href="app.mail.html" class="py-3 d-block i-con-h-a">
                   <i class="i-con i-con-mail"><i></i></i>
                 </a>
               </div>
@@ -302,7 +286,7 @@
                   <span class="nav-text">Calendar</span>
                 </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="app.mail.integration.html" class="i-con-h-a">
                   <span class="nav-icon">
                     <i class="i-con i-con-mail"><i></i></i>
@@ -333,7 +317,7 @@
                 </a>
               </li>
             </ul>
-            <ul class="nav active">
+            <ul class="nav">
               <li class="nav-header hidden-folded">
                 <span>Personal</span>
               </li>
@@ -386,118 +370,67 @@
     <!-- ############ Content START-->
     <div id="content" class="flex ">
       <!-- ############ Main START-->
-      <div class="padding">
-        <div class="pos-rlt">
-          <div class="calendar-action">
-            <div class="btn-group">
-              <button class="btn btn-sm btn-link no-shadow i-con-h-a" data-toggle="dropdown"><i class="i-con i-con-calendar"><i></i></i></button>
-              <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item" id="todayview">Today</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" id="dayview">Day</a>
-                <a class="dropdown-item" id="weekview">Week</a>
-                <a class="dropdown-item" id="monthview">Month</a>
-              </div>
-            </div>
-            <button class="btn btn-sm btn-rounded btn-primary i-con-h-a" data-toggle="modal" data-target="#newEvent">
-              <i class="i-con i-con-plus"></i>
-              <span class="d-none d-md-inline">Add Event</span>
-            </button>
-          </div>
-          <!-- modal -->
-          <div id="newEvent" class="modal fade">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Event</h5>
-                </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="form-group row">
-                      <label class="col-sm-3 col-form-label">Title</label>
-                      <div class="col-sm-9">
-                        <input id="event-title" type="text" class="form-control" placeholder="Title">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-sm-3 col-form-label">Event type</label>
-                      <div class="col-sm-9">
-                        <div class="mt-2" id="event-type">
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Appointment">
-                            <label class="form-check-label" for="inlineRadio1">Appointment</label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Event">
-                            <label class="form-check-label" for="inlineRadio2">Event</label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Important">
-                            <label class="form-check-label" for="inlineRadio3">Important</label>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-sm-3 col-form-label">Start</label>
-                      <div class="col-sm-4">
-                        <input id="event-start-date" type="text" class="form-control" placeholder="Date">
-                      </div>
-                      <div class="col-sm-4">
-                        <input id="event-start-time" type="text" class="form-control" placeholder="Time">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-sm-3 col-form-label">End</label>
-                      <div class="col-sm-4">
-                        <input id="event-end-date" type="text" class="form-control" placeholder="Date">
-                      </div>
-                      <div class="col-sm-4">
-                        <input id="event-end-time" type="text" class="form-control" placeholder="Time">
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-sm-3 col-form-label">Participate</label>
-                      <div class="col-sm-9">
-                        <div class="d-flex">
-                          <div id="event-participant" class="avatar-group">
-                            <a href="#" class="avatar w-32 b-a b-white"><img src="../assets/img/a0.jpg"></a>
-                            <a href="#" class="avatar w-32 b-a b-white"><img src="../assets/img/a2.jpg"></a>
-                            <a href="#" class="avatar w-32 b-a b-white"><img src="../assets/img/a3.jpg"></a>
-                            <a href="#" class="avatar w-32 b-a b-white"><img src="../assets/img/a4.jpg"></a>
-                            <a href="#" class="avatar w-32 b-a b-white"><img src="../assets/img/a5.jpg"></a>
-                          </div>
-                          <a href="#" class="btn btn-icon btn-rounded btn-primary ml-1 i-con-h-a"><span><i class="i-con i-con-plus"></i></span></a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-sm-3 col-form-label">Description</label>
-                      <div class="col-sm-9">
-                        <textarea id="event-desc" class="form-control" rows="6"></textarea>
-                      </div>
-                    </div>
-                    <div class="form-group row">
-                      <label class="col-sm-3"></label>
-                      <div class="col-sm-9">
-                        <button type="button" class="btn btn-primary btn-rounded">Save</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div><!-- /.modal-content -->
-            </div>
-          </div>
-          <!-- / .modal -->
-          <div id="fullcalendar" data-plugin="fullCalendar">
+      <div>
+        <div class="row">
+          <div class="col-md-12 my-5">
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="row">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h1 class="text-center my-5">See your most engaged contacts and contact them quickly</h1>
+            <p class="">&nbsp;Your activity feed shows when a contact interacts with your content, such as opening an email, viewing a document, or booking a meeting. Call, email, or create a task directly from your feed so you can keep your contacts engaged. To receive activities, connect your Gmail or Outlook inbox and install the extension.</p>
+          </div>
+          <div class="col-md-4">
+            <div class="my-5 h=100">
+            </div>
+            <div class="col-md-12 h=100"><a class="btn btn-primary btn-block my-5" href="app.message.html">Connect to Telegram</a>
+              <a class="btn btn-primary btn-block my-5 btn-sm" href="app.message.html">Connect to Slak</a>
+              <a class="btn btn-primary btn-block my-5 btn-sm" href="app.message.html">Connect to WhatsUp</a></div>
+          </div>
+          <div class="col-md-2">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+          </div>
+        </div>
+        <div class="d-flex h-50 padding">
+          <div class="d-flex block md-12">
+            <div class="aside-deck hide" id="mail-deck">
+              <div class="card card-origin alert p-0 m-0 b-a hide">
+                <div class="card-header d-flex align-items-center bg-body">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ############ Main END-->
       </div>
-      <!-- ############ Main END-->
     </div>
     <!-- ############ Content END-->
     <!-- ############ LAYOUT END-->
   </div>
+  <!-- build:js ../assets/js/site.min.js -->
+  <!-- jQuery -->
+  <script src="../libs/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- ajax page -->
+  <script src="../libs/pace-progress/pace.min.js"></script>
+  <script src="../libs/pjax/pjax.js"></script>
+  <script src="../assets/js/ajax.js"></script>
+  <!-- lazyload plugin -->
+  <script src="../assets/js/lazyload.config.js"></script>
+  <script src="../assets/js/lazyload.js"></script>
+  <script src="../assets/js/plugin.js"></script>
+  <!-- theme -->
+  <script src="../assets/js/theme.js"></script>
+  <!-- endbuild -->
   <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
