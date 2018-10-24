@@ -16,7 +16,25 @@
   <link rel="stylesheet" href="../assets/scss/theme.css">
 </head>
 
-<body class="layout-column                               pace-done" data-class="">
+<body class="layout-column                                        pace-done" data-class="">
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
   <div class="pace  pace-inactive">
     <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
       <div class="pace-progress-inner"></div>
@@ -482,12 +500,12 @@
             </div>
           </div>
           <ul class="nav nav-tabs">
-            <li class="nav-item"> <a href="" class="nav-link active show" data-toggle="tab" data-target="#tabone">Profile</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="" data-toggle="tab" data-target="#tabtwo">Activity</a> </li>
+            <li class="nav-item"> <a href="" class="nav-link" data-toggle="tab" data-target="#tabone">Profile</a> </li>
+            <li class="nav-item"> <a class="nav-link active show" href="" data-toggle="tab" data-target="#tabtwo">Activity</a> </li>
             <li class="nav-item"> <a href="" class="nav-link" data-toggle="tab" data-target="#tabthree">Documents</a> </li>
           </ul>
           <div class="tab-content mt-2">
-            <div class="tab-pane fade active show" id="tabone" role="tabpanel">
+            <div class="tab-pane fade" id="tabone" role="tabpanel">
               <!-- Tab one -->
               <h4 class="" contenteditable="true">About Bexam</h4>
               <div class="card">
@@ -993,7 +1011,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="tabtwo" role="tabpanel">
+            <div class="tab-pane fade active show" id="tabtwo" role="tabpanel">
               <div>
                 <div>
                   <h5 class="card-title">Acceleration Road Map</h5>
@@ -1348,204 +1366,204 @@
                 </div>
               </div>
             </div>
-          </div>
-          <!--Tab three-->
-          <div class="tab-pane fade" id="tabthree" role="tabpanel">
-            <div class="row">
-              <div class="col-md-12">
-                <h4 class="">Documents</h4>
-              </div>
-              <div class="table-responsive">
-                <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
-                <table class="table table-theme table-row v-middle">
-                  <thead>
-                    <tr>
-                      <th style="width:20px;">
-                        <label class="ui-check m-0">
-                          <input type="checkbox"><i></i>
-                        </label>
-                      </th>
-                      <th class="text-muted">Owner</th>
-                      <th class="text-muted sortable" data-toggle-class="asc">Document</th>
-                      <th class="text-muted">Dislikes</th>
-                      <th class="text-muted">Likes</th>
-                      <th style="width:50px;"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class=" v-middle" data-id="12">
-                      <td>
-                        <label class="ui-check m-0 ">
-                          <input type="checkbox" name="id" value="12">
-                          <i></i>
-                        </label>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <span class="w-32 avatar circle bg-info-lt"> D </span>
-                        </a>
-                      </td>
-                      <td class="flex">
-                        <a href="#" class="item-author ">White Paper</a>
-                        <div class="item-except text-muted h-1x"> Description of the project and its values </div>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 14 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 20 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
-                      </td>
-                      <td>
-                        <div class="item-action dropdown">
-                          <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
-                          <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
-                            <a class="dropdown-item" href="#"> See detail </a>
-                            <a class="dropdown-item"> Download </a>
-                            <a class="dropdown-item"> Edit </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item"> Delete item </a>
+            <!--Tab three-->
+            <div class="tab-pane fade" id="tabthree" role="tabpanel">
+              <div class="row">
+                <div class="col-md-12">
+                  <h4 class="">Documents</h4>
+                </div>
+                <div class="table-responsive">
+                  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+                  <table class="table table-theme table-row v-middle">
+                    <thead>
+                      <tr>
+                        <th style="width:20px;">
+                          <label class="ui-check m-0">
+                            <input type="checkbox"><i></i>
+                          </label>
+                        </th>
+                        <th class="text-muted">Owner</th>
+                        <th class="text-muted sortable" data-toggle-class="asc">Document</th>
+                        <th class="text-muted">Dislikes</th>
+                        <th class="text-muted">Likes</th>
+                        <th style="width:50px;"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr class=" v-middle" data-id="12">
+                        <td>
+                          <label class="ui-check m-0 ">
+                            <input type="checkbox" name="id" value="12">
+                            <i></i>
+                          </label>
+                        </td>
+                        <td>
+                          <a href="#">
+                            <span class="w-32 avatar circle bg-info-lt"> D </span>
+                          </a>
+                        </td>
+                        <td class="flex">
+                          <a href="#" class="item-author ">White Paper</a>
+                          <div class="item-except text-muted h-1x"> Description of the project and its values </div>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 14 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 20 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
+                        </td>
+                        <td>
+                          <div class="item-action dropdown">
+                            <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
+                            <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
+                              <a class="dropdown-item" href="#"> See detail </a>
+                              <a class="dropdown-item"> Download </a>
+                              <a class="dropdown-item"> Edit </a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item"> Delete item </a>
+                            </div>
                           </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class=" v-middle" data-id="12">
-                      <td>
-                        <label class="ui-check m-0 ">
-                          <input type="checkbox" name="id" value="12">
-                          <i></i>
-                        </label>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <span class="w-32 avatar circle bg-info-lt"> Y </span>
-                        </a>
-                      </td>
-                      <td class="flex">
-                        <a href="#" class="item-author ">One Pager</a>
-                        <div class="item-except text-muted h-1x"> Description </div>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 8 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 31 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
-                      </td>
-                      <td>
-                        <div class="item-action dropdown">
-                          <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
-                          <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
-                            <a class="dropdown-item" href="#"> See detail </a>
-                            <a class="dropdown-item"> Download </a>
-                            <a class="dropdown-item"> Edit </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item"> Delete item </a>
+                        </td>
+                      </tr>
+                      <tr class=" v-middle" data-id="12">
+                        <td>
+                          <label class="ui-check m-0 ">
+                            <input type="checkbox" name="id" value="12">
+                            <i></i>
+                          </label>
+                        </td>
+                        <td>
+                          <a href="#">
+                            <span class="w-32 avatar circle bg-info-lt"> Y </span>
+                          </a>
+                        </td>
+                        <td class="flex">
+                          <a href="#" class="item-author ">One Pager</a>
+                          <div class="item-except text-muted h-1x"> Description </div>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 8 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 31 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
+                        </td>
+                        <td>
+                          <div class="item-action dropdown">
+                            <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
+                            <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
+                              <a class="dropdown-item" href="#"> See detail </a>
+                              <a class="dropdown-item"> Download </a>
+                              <a class="dropdown-item"> Edit </a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item"> Delete item </a>
+                            </div>
                           </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class=" v-middle" data-id="12">
-                      <td>
-                        <label class="ui-check m-0 ">
-                          <input type="checkbox" name="id" value="12">
-                          <i></i>
-                        </label>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <span class="w-32 avatar circle bg-info-lt"> Y </span>
-                        </a>
-                      </td>
-                      <td class="flex">
-                        <a href="#" class="item-author ">3 Pager</a>
-                        <div class="item-except text-muted h-1x"> Description </div>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 25 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 41 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
-                      </td>
-                      <td>
-                        <div class="item-action dropdown">
-                          <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
-                          <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
-                            <a class="dropdown-item" href="#"> See detail </a>
-                            <a class="dropdown-item"> Download </a>
-                            <a class="dropdown-item"> Edit </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item"> Delete item </a>
+                        </td>
+                      </tr>
+                      <tr class=" v-middle" data-id="12">
+                        <td>
+                          <label class="ui-check m-0 ">
+                            <input type="checkbox" name="id" value="12">
+                            <i></i>
+                          </label>
+                        </td>
+                        <td>
+                          <a href="#">
+                            <span class="w-32 avatar circle bg-info-lt"> Y </span>
+                          </a>
+                        </td>
+                        <td class="flex">
+                          <a href="#" class="item-author ">3 Pager</a>
+                          <div class="item-except text-muted h-1x"> Description </div>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 25 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 41 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
+                        </td>
+                        <td>
+                          <div class="item-action dropdown">
+                            <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
+                            <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
+                              <a class="dropdown-item" href="#"> See detail </a>
+                              <a class="dropdown-item"> Download </a>
+                              <a class="dropdown-item"> Edit </a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item"> Delete item </a>
+                            </div>
                           </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr class=" v-middle" data-id="12">
-                      <td>
-                        <label class="ui-check m-0 ">
-                          <input type="checkbox" name="id" value="12">
-                          <i></i>
-                        </label>
-                      </td>
-                      <td>
-                        <a href="#">
-                          <span class="w-32 avatar circle bg-info-lt"> Y </span>
-                        </a>
-                      </td>
-                      <td class="flex">
-                        <a href="#" class="item-author ">Video</a>
-                        <div class="item-except text-muted h-1x"> <a href="#">@Paulo D’Alberti</a> (CMO) speach about BEXAM.io project </div>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 25 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
-                      </td>
-                      <td>
-                        <span class="item-amount text-sm "> 41 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
-                      </td>
-                      <td>
-                        <div class="item-action dropdown">
-                          <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
-                          <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
-                            <a class="dropdown-item" href="#"> See detail </a>
-                            <a class="dropdown-item"> Download </a>
-                            <a class="dropdown-item"> Edit </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item"> Delete item </a>
+                        </td>
+                      </tr>
+                      <tr class=" v-middle" data-id="12">
+                        <td>
+                          <label class="ui-check m-0 ">
+                            <input type="checkbox" name="id" value="12">
+                            <i></i>
+                          </label>
+                        </td>
+                        <td>
+                          <a href="#">
+                            <span class="w-32 avatar circle bg-info-lt"> Y </span>
+                          </a>
+                        </td>
+                        <td class="flex">
+                          <a href="#" class="item-author ">Video</a>
+                          <div class="item-except text-muted h-1x"> <a href="#">@Paulo D’Alberti</a> (CMO) speach about BEXAM.io project </div>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 25 <i class="mr-2 i-con i-con-close"><i></i></i>Dislike</span>
+                        </td>
+                        <td>
+                          <span class="item-amount text-sm "> 41 <i class="mr-2 i-con i-con-like"><i></i></i>Like </span>
+                        </td>
+                        <td>
+                          <div class="item-action dropdown">
+                            <a href="#" data-toggle="dropdown" class="text-muted" aria-expanded="false"><i class="i-con i-con-more"><i></i></i></a>
+                            <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu" x-placement="bottom-end" style="position: absolute; transform: translate3d(-142px, 15px, 0px); top: 0px; left: 0px; will-change: transform;">
+                              <a class="dropdown-item" href="#"> See detail </a>
+                              <a class="dropdown-item"> Download </a>
+                              <a class="dropdown-item"> Edit </a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item"> Delete item </a>
+                            </div>
                           </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <!-- build:js ../assets/js/site.min.js -->
-                    <!-- jQuery -->
-                    <script src="../libs/jquery/dist/jquery.min.js"></script>
-                    <!-- Bootstrap -->
-                    <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
-                    <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
-                    <!-- ajax page -->
-                    <script src="../libs/pace-progress/pace.min.js"></script>
-                    <script src="../libs/pjax/pjax.js"></script>
-                    <script src="../assets/js/ajax.js"></script>
-                    <!-- lazyload plugin -->
-                    <script src="../assets/js/lazyload.config.js"></script>
-                    <script src="../assets/js/lazyload.js"></script>
-                    <script src="../assets/js/plugin.js"></script>
-                    <!-- theme -->
-                    <script src="../assets/js/theme.js"></script>
-                    <!-- endbuild -->
-                    <script src="../libs/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-                    <script src="../libs/typeahead.js/dist/typeahead.bundle.min.js" style=""></script>
-                    <script src="../assets/js/plugins/typeahead.js" style=""></script>
-                    <script src="../libs/screenfull/dist/screenfull.js" style=""></script>
-                    <script src="../assets/js/plugins/screenfull.js" style=""></script>
-                    <script src="../libs/datatables/media/js/jquery.dataTables.min.js"></script>
-                    <script src="../libs/datatables/media/js/jquery.dataTables.min.js"></script>
-                    <script src="../libs/datatables.net-bs4/js/dataTables.bootstrap4.js"></script>
-                    <script src="../libs/datatables.net-bs4/js/dataTables.bootstrap4.js"></script>
-                    <script src="../assets/js/plugins/datatable.js"></script>
-                    <script src="../assets/js/plugins/datatable.js"></script>
-                    <script src="../libs/jquery.stellar/jquery.stellar.min.js"></script>
-                    <script src="../assets/js/plugins/stellar.js"></script>
-                    <script src="../libs/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-                  </tbody>
-                </table>
+                        </td>
+                      </tr>
+                      <!-- build:js ../assets/js/site.min.js -->
+                      <!-- jQuery -->
+                      <script src="../libs/jquery/dist/jquery.min.js"></script>
+                      <!-- Bootstrap -->
+                      <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
+                      <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+                      <!-- ajax page -->
+                      <script src="../libs/pace-progress/pace.min.js"></script>
+                      <script src="../libs/pjax/pjax.js"></script>
+                      <script src="../assets/js/ajax.js"></script>
+                      <!-- lazyload plugin -->
+                      <script src="../assets/js/lazyload.config.js"></script>
+                      <script src="../assets/js/lazyload.js"></script>
+                      <script src="../assets/js/plugin.js"></script>
+                      <!-- theme -->
+                      <script src="../assets/js/theme.js"></script>
+                      <!-- endbuild -->
+                      <script src="../libs/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+                      <script src="../libs/typeahead.js/dist/typeahead.bundle.min.js" style=""></script>
+                      <script src="../assets/js/plugins/typeahead.js" style=""></script>
+                      <script src="../libs/screenfull/dist/screenfull.js" style=""></script>
+                      <script src="../assets/js/plugins/screenfull.js" style=""></script>
+                      <script src="../libs/datatables/media/js/jquery.dataTables.min.js"></script>
+                      <script src="../libs/datatables/media/js/jquery.dataTables.min.js"></script>
+                      <script src="../libs/datatables.net-bs4/js/dataTables.bootstrap4.js"></script>
+                      <script src="../libs/datatables.net-bs4/js/dataTables.bootstrap4.js"></script>
+                      <script src="../assets/js/plugins/datatable.js"></script>
+                      <script src="../assets/js/plugins/datatable.js"></script>
+                      <script src="../libs/jquery.stellar/jquery.stellar.min.js"></script>
+                      <script src="../assets/js/plugins/stellar.js"></script>
+                      <script src="../libs/easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>
