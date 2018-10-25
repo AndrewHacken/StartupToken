@@ -15,7 +15,13 @@
   <!-- endbuild -->
 </head>
 
-<body class="layout-column  pace-done">
+<body class="layout-column    pace-done">
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
   <div class="pace  pace-inactive">
     <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
       <div class="pace-progress-inner"></div>
@@ -394,6 +400,7 @@
             <div class="col-md-4">
               <h1 class="text-center p-4">Projects Gallary</h1>
             </div>
+            <!-- Control buttons -->
             <div class="col-md-4" style="text-align:right">
               <div class="btn-group my-3">
                 <a href="dashboard.html" class="btn btn-outline-primary">All</a>
@@ -402,6 +409,22 @@
             </div>
           </div>
         </div>
+      </div>
+      <div id="myBtnContainer" class="row my-4">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('identity')"> Identity</button>
+        <button class="btn" onclick="filterSelection('exchange')"> Exchange</button>
+        <button class="btn" onclick="filterSelection('education')"> Education</button>
+        <button class="btn" onclick="filterSelection('security')"> Security</button>
+        <button class="btn" onclick="filterSelection('maunnet')"> Mainnet</button>
+        <button class="btn" onclick="filterSelection('energy')"> Energy</button>
+        <button class="btn" onclick="filterSelection('marketplace')"> Marketplace</button>
+        <button class="btn" onclick="filterSelection('finance')"> Finance</button>
+        <button class="btn" onclick="filterSelection('payment')"> Payment</button>
+        <button class="btn" onclick="filterSelection('tools')"> Tools</button>
+        <button class="btn" onclick="filterSelection('platform')"> Platform</button>
+        <button class="btn" onclick="filterSelection('audit')"> Audit</button>
+        <button class="btn" onclick="filterSelection('favorite')"> Favorite</button>
       </div>
       <!-- <div class="row">
         <div class="col-md-4">
@@ -455,70 +478,124 @@
           </div>
         </div>
       </div> -->
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card"> <img class="card-img-top float-left img-fluid" src="../assets/img/a1.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Bexam</h5>
-              <p class="card-text">Protocol</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+      <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+      <div class="container">
+        <div class="filterDiv exchange">BMW</div>
+        <div class="filterDiv colors audit">Orange</div>
+        <div class="filterDiv security">Volvo</div>
+        <div class="filterDiv colors">Red</div>
+        <div class="filterDiv cars animals">Mustang</div>
+        <div class="filterDiv colors">Blue</div>
+        <div class="filterDiv animals">Cat</div>
+        <div class="filterDiv animals">Dog</div>
+        <div class="filterDiv fruits">Melon</div>
+        <div class="filterDiv fruits animals">Kiwi</div>
+        <div class="filterDiv fruits">Banana</div>
+        <div class="filterDiv fruits">Lemon</div>
+        <div class="filterDiv animals">Cow</div>
+        <div class="row">
+          <div class="filterDiv exchange mainnet favorite">
+            <div class="col-md-8">
+              <div class="card"> <img class="card-img-top float-left img-fluid" src="../assets/img/a1.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text text-success">Ongoing Acceleration</p>
+                  <h5 class="card-title">Bexam</h5>
+                  <p class="card-text">The new Crypto Exchange with 40 million TPS<br></p>
+                  <div class="row my-3">
+                    <div class="col-md-4">
+                      <p class="card-text text-success text-center">Min Cap<br>2.8 M$</p>
+                    </div>
+                    <div class="col-md-4">
+                      <p class="card-text text-success text-center">Hard Cap<br>24 M$</p>
+                    </div>
+                    <div class="col-md-4">
+                      <p class="card-text text-success text-center">Public-Sale<br>Nov 2018</p>
+                    </div>
+                  </div>
+                  <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card"> <img class="card-img-top my-4" src="../assets/img/a2.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title my-3">Bundle</h5>
-              <p class="card-text">Crypto Trading Simplified</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+          <div class="col-md-4">
+            <div class="card"> <img class="card-img-top my-4" src="../assets/img/a2.png" alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text text-success">Ongoing Acceleration</p>
+                <h5 class="card-title">Bundle</h5>
+                <p class="card-text">Crypto-Trading Simplified<br></p>
+                <div class="row my-3">
+                  <div class="col-md-4">
+                    <p class="card-text text-success text-center">Min Cap<br>2.8 M$</p>
+                  </div>
+                  <div class="col-md-4">
+                    <p class="card-text text-success text-center">Hard Cap<br>24 M$</p>
+                  </div>
+                  <div class="col-md-4">
+                    <p class="card-text text-success text-center">Public-Sale<br>Nov 2018</p>
+                  </div>
+                </div>
+                <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card"> <img class="card-img-top my-4" src="../assets/img/a3.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title my-3">EthicHub</h5>
-              <p class="card-text">Peer To Peer Lending</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+          <div class="col-md-4">
+            <div class="card"> <img class="card-img-top my-4" src="../assets/img/a3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title my-3">EthicHub</h5>
+                <p class="card-text">Peer To Peer Lending</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card"> <img class="card-img-top my-4" src="../assets/img/a4.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title my-3">Blox</h5>
-              <p class="card-text">Crypto Asset Management</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card"> <img class="card-img-top my-4" src="../assets/img/a4.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title my-3">Blox</h5>
+                  <p class="card-text">Crypto Asset Management</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card"> <img class="card-img-top my-4" src="../assets/img/a5.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title my-4">Indorse</h5>
+                  <p class="card-text">Decentralized Professional Network</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card"> <img class="card-img-top my-4" src="../assets/img/a7.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title my-4">RSK</h5>
+                  <p class="card-text">Smart Bitcoin<br><br></p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="card"> <img class="card-img-top my-4" src="../assets/img/a5.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title my-4">Indorse</h5>
-              <p class="card-text">Decentralized Professional Network</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card"> <img class="card-img-top my-4" src="../assets/img/a8.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title my-3">Mobilum</h5>
+                  <p class="card-text">Pay anywhere, any cryptocurrency, any payment card</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card"> <img class="card-img-top my-4" src="../assets/img/a7.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title my-4">RSK</h5>
-              <p class="card-text">Smart Bitcoin<br><br></p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
+            <div class="col-md-4">
+              <div class="card"> <img class="card-img-top" src="../assets/img/a10 — копия.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Hacken</h5>
+                  <p class="card-text">Cyber Security Platform<br><br></p> <a href="project.profile.html" class="btn btn-primary btn-block" contenteditable="true">Profile</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card"> <img class="card-img-top my-4" src="../assets/img/a8.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title my-3">Mobilum</h5>
-              <p class="card-text">Pay anywhere, any cryptocurrency, any payment card</p> <a href="project.profile.html" class="btn btn-primary btn-block">Profile</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="card"> <img class="card-img-top" src="../assets/img/a10 — копия.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Hacken</h5>
-              <p class="card-text">Cyber Security Platform<br><br></p> <a href="project.profile.html" class="btn btn-primary btn-block" contenteditable="true">Profile</a>
+            <div class="col-md-4">
+              <div class="card"> <img class="card-img-top" src="../assets/img/a10 — копия.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Hacken</h5>
+                  <p class="card-text">Cyber Security Platform<br><br></p> <a href="project.profile.html" class="btn btn-primary btn-block" contenteditable="true">Profile</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -543,7 +620,8 @@
   <script src="../assets/js/plugin.js"></script>
   <!-- theme -->
   <script src="../assets/js/theme.js"></script>
-  <!-- endbuild -->
+  <!-- filtering -->
+  <script src="../assets/js/filtering.js"></script>
   <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
