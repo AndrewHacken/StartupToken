@@ -54,3 +54,22 @@ h1 {
     display: block;
 }
 
+/* Style the buttons for dashboard */
+.btnd {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btnd:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btnd.active {
+    background-color: #666;
+     color: white;
+  }

@@ -23,3 +23,9 @@ gcloud config set project startuptoken-217112
 ```
 gcloud app deploy app.yaml
 ```
+
+
+## For page autorefresh (delete befor deployment)
+<head>
+  <meta http-equiv="refresh" content="30">
+</head>
