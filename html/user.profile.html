@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="../assets/css/theme.css" type="text/css">
   <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
   <!-- endbuild -->
+  <link rel="stylesheet" href="../assets/scss/theme.css">
 </head>
 
 <body class="layout-column  pace-done">
@@ -23,20 +24,15 @@
     <div class="pace-activity"></div>
   </div>
   <header id="header" class="page-header bg-white box-shadow animate fadeInDown scroll-up">
-    <div class="navbar navbar-expand-lg bg-primary" >
+    <div class="navbar navbar-expand-lg bg-primary">
       <!-- btn to toggle sidenav on small screen -->
       <a class="d-lg-none i-con-h-a px-1" data-toggle="modal" data-target="#aside">
         <i class="i-con i-con-menu text-muted"></i>
       </a>
       <!-- brand -->
       <a href="../index.html" class="navbar-brand">
-        <!--svg fill="#a9a9a9" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" >
-          <path class="fill" d="M17.81 4.47c-.08 0-.16-.02-.23-.06C15.66 3.42 14 3 12.01 3c-1.98 0-3.86.47-5.57 1.41-.24.13-.54.04-.68-.2-.13-.24-.04-.55.2-.68C7.82 2.52 9.86 2 12.01 2c2.13 0 3.99.47 6.03 1.52.25.13.34.43.21.67-.09.18-.26.28-.44.28zM3.5 9.72c-.1 0-.2-.03-.29-.09-.23-.16-.28-.47-.12-.7.99-1.4 2.25-2.5 3.75-3.27C9.98 4.04 14 4.03 17.15 5.65c1.5.77 2.76 1.86 3.75 3.25.16.22.11.54-.12.7-.23.16-.54.11-.7-.12-.9-1.26-2.04-2.25-3.39-2.94-2.87-1.47-6.54-1.47-9.4.01-1.36.7-2.5 1.7-3.4 2.96-.08.14-.23.21-.39.21zm6.25 12.07c-.13 0-.26-.05-.35-.15-.87-.87-1.34-1.43-2.01-2.64-.69-1.23-1.05-2.73-1.05-4.34 0-2.97 2.54-5.39 5.66-5.39s5.66 2.42 5.66 5.39c0 .28-.22.5-.5.5s-.5-.22-.5-.5c0-2.42-2.09-4.39-4.66-4.39-2.57 0-4.66 1.97-4.66 4.39 0 1.44.32 2.77.93 3.85.64 1.15 1.08 1.64 1.85 2.42.19.2.19.51 0 .71-.11.1-.24.15-.37.15zm7.17-1.85c-1.19 0-2.24-.3-3.1-.89-1.49-1.01-2.38-2.65-2.38-4.39 0-.28.22-.5.5-.5s.5.22.5.5c0 1.41.72 2.74 1.94 3.56.71.48 1.54.71 2.54.71.24 0 .64-.03 1.04-.1.27-.05.53.13.58.41.05.27-.13.53-.41.58-.57.11-1.07.12-1.21.12zM14.91 22c-.04 0-.09-.01-.13-.02-1.59-.44-2.63-1.03-3.72-2.1-1.4-1.39-2.17-3.24-2.17-5.22 0-1.62 1.38-2.94 3.08-2.94 1.7 0 3.08 1.32 3.08 2.94 0 1.07.93 1.94 2.08 1.94s2.08-.87 2.08-1.94c0-3.77-3.25-6.83-7.25-6.83-2.84 0-5.44 1.58-6.61 4.03-.39.81-.59 1.76-.59 2.8 0 .78.07 2.01.67 3.61.1.26-.03.55-.29.64-.26.1-.55-.04-.64-.29-.49-1.31-.73-2.61-.73-3.96 0-1.2.23-2.29.68-3.24 1.33-2.79 4.28-4.6 7.51-4.6 4.55 0 8.25 3.51 8.25 7.83 0 1.62-1.38 2.94-3.08 2.94s-3.08-1.32-3.08-2.94c0-1.07-.93-1.94-2.08-1.94s-2.08.87-2.08 1.94c0 1.71.66 3.31 1.87 4.51.95.94 1.86 1.46 3.27 1.85.27.07.42.35.35.61-.05.23-.26.38-.47.38z"></path>
-          <path d="M0 0h24v24H0z" fill="none"></path>
-        </svg-->
         <img class="logo-trans logo-reg" src="https://startuptoken.com/wp-content/uploads/2017/09/StartupToken-logo-copy-Website-361x100.png" height="120
 0" alt="Startuptoken">
-        <!--span class="hidden-folded d-inline l-s-n-1x ">StartupToken</span-->
       </a>
       <!-- / brand -->
       <!-- Navbar collapse -->
@@ -340,7 +336,7 @@
                 <span>Personal</span>
               </li>
               <li class="">
-                <a href="user.profile.html" class="i-con-h-a" >
+                <a href="user.profile.html" class="i-con-h-a">
                   <span class="nav-icon">
                     <i class="i-con i-con-user"><i class=""></i></i>
                   </span>
@@ -348,7 +344,7 @@
                 </a>
               </li>
               <li class="">
-                <a href="app.desk.html" class="i-con-h-a" >
+                <a href="app.desk.html" class="i-con-h-a">
                   <span class="nav-icon">
                     <i class="i-con i-con-grid"><i class=""></i></i>
                   </span>
@@ -386,12 +382,9 @@
     </div>
     <!-- ############ Aside END-->
     <!-- ############ Content START-->
-    <div id="content" class="flex " >
+    <div id="content" class="flex " style="">
       <!-- ############ Main START-->
       <div class="page-container" id="page-container">
-        <div class="page-title padding pb-0 ">
-          <h2 class="text-md mb-0">Profile</h2>
-        </div>
         <div class="padding">
           <div class="card">
             <div class="card-header bg-dark bg-img p-0 no-border" data-stellar-background-ratio="0.1" style="background-image: url(&quot;../assets/img/c2.jpg&quot;); background-position: 50% -83.7px;" data-plugin="stellar">
@@ -433,16 +426,22 @@
               <div class="d-flex nav-active-border nav-active-text-primary b-primary">
                 <ul class="nav ">
                   <li class="nav-item">
-                    <a class="nav-link py-3 active" href="#" data-toggle="tab" data-target="#tab_1">Feed</a>
+                    <a class="nav-link py-3 active" href="#" data-toggle="tab" data-target="#tab_1">Dashboard</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_2">Activity</a>
+                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_2">Wallet</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_3">Friends</a>
+                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_3">Posts</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_4">Profile</a>
+                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_4">Activity</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_5">Friends</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-3" href="#" data-toggle="tab" data-target="#tab_6">Profile</a>
                   </li>
                 </ul>
               </div>
@@ -451,7 +450,638 @@
           <div class="row">
             <div class="col-sm-8 col-lg-9">
               <div class="tab-content">
+                <!--Tab 1 Dashboard-->
                 <div class="tab-pane fade show active" id="tab_1">
+                  <!--Tab 1 Health Monitor-->
+                  <h5 class="m-3">Favorite Projects Health Monitor&nbsp;<span class="badge badge-light"> </span></h5>
+                  <div class="card" style="">
+                    <div class="">
+                      <div class="col-12 col-md-12 my-3">
+                        <div class="list list-grouped text-center">
+                          <div class="list-item i-con-h-a block">
+                            <div class="list-content p-0">
+                              <div class="list-body">
+                                <div class="p-3 b-b"> Zilla </div>
+                                <div class="py-4">
+                                  <div class="i-con-h-a active mb-4">
+                                    <i class="i-con i-con-rain w-40 b-2x"><i></i></i>
+                                  </div>
+                                  <div class="mb-4 text-danger">-9 <sup></sup></div>
+                                  <div class="text-muted">Rain</div>
+                                </div>
+                                <div class="p-3 b-t"><a class="btn btn-outline-primary" href="project.profile.html">Profile</a></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="list-item i-con-h-a block">
+                            <div class="list-content p-0">
+                              <div class="list-body">
+                                <div class="p-3 b-b"> Bexam <sup><span class="badge badge-danger"> New </span></sup></div>
+                                <div class="py-4">
+                                  <div class="i-con-h-a active mb-4">
+                                    <i class="i-con i-con-clear-day w-40 b-2x"><i></i></i>
+                                  </div>
+                                  <div class="mb-4 text-success">+10 <sup></sup></div>
+                                  <div class="text-muted">Clear day</div>
+                                </div>
+                                <div class="p-3 b-t"><a class="btn btn-outline-primary" href="project.profile.html">Profile</a></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="list-item i-con-h-a block">
+                            <div class="list-content p-0">
+                              <div class="list-body">
+                                <div class="p-3 b-b"> Unname </div>
+                                <div class="py-4">
+                                  <div class="i-con-h-a active mb-4">
+                                    <i class="i-con i-con-snow w-40 b-2x"><i></i></i>
+                                  </div>
+                                  <div class="mb-4 text-danger">-17 <sup></sup></div>
+                                  <div class="text-muted">Snow</div>
+                                </div>
+                                <div class="p-3 b-t"><a class="btn btn-outline-primary" href="project.profile.html">Profile</a></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="list-item i-con-h-a block">
+                            <div class="list-content p-0">
+                              <div class="list-body">
+                                <div class="p-3 b-b"> Dether </div>
+                                <div class="py-4">
+                                  <div class="i-con-h-a active mb-4">
+                                    <i class="i-con i-con-cloudy w-40 b-2x"><i></i></i>
+                                  </div>
+                                  <div class="mb-4 text-success">+6 <sup></sup></div>
+                                  <div class="text-muted">Cloudy</div>
+                                </div>
+                                <div class="p-3 b-t"><a class="btn btn-outline-primary" href="project.profile.html">Profile</a></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="list-item i-con-h-a block">
+                            <div class="list-content p-0">
+                              <div class="list-body">
+                                <div class="p-3 b-b"> Blox </div>
+                                <div class="py-4">
+                                  <div class="i-con-h-a active mb-4">
+                                    <i class="i-con i-con-drizzle w-40 b-2x"><i></i></i>
+                                  </div>
+                                  <div class="mb-4 text-warning">-1 <sup></sup></div>
+                                  <div class="text-muted">Drizzle</div>
+                                </div>
+                                <div class="p-3 b-t"><a class="btn btn-outline-primary" href="project.profile.html">Profile</a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Tab 1 Challenges-->
+                  <h5 class="m-3">Take part in Challenges</h5>
+                  <div>
+                    <div id="invoice-list" data-plugin="invoice">
+                      <div class="toolbar ">
+                        <button class="btn btn-sm btn-white i-con-h-a sort hide" data-sort="item-title" data-toggle="tooltip" title="Sort">
+                          <i class="i-con i-con-sort text-muted"><i></i></i>
+                        </button>
+                        <form class="flex">
+                          <div class="input-group">
+                            <input type="text" class="form-control form-control-sm search" placeholder="Search" required="">
+                            <span class="input-group-append">
+                              <button class="btn btn-white no-shadow btn-sm i-con-h-a" type="button">
+                                <i class="i-con i-con-search text-muted"></i>
+                              </button>
+                            </span>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="table-responsive">
+                        <table class="table table-theme table-row v-middle">
+                          <thead>
+                            <tr>
+                              <th style="width:20px;"></th>
+                              <th class="text-muted sort sortable" data-sort="id" style="width:40px;text-align:center">No.</th>
+                              <th class="text-muted sort sortable" data-sort="item-company" style="width:60px;">Project</th>
+                              <th></th>
+                              <th class="text-muted sort sortable" data-sort="item-amount" style="width:60px;">Amount</th>
+                              <th class="text-muted sort sortable" data-sort="item-badge" style="width:60px;">Status</th>
+                              <th class="text-muted" style="width:120px;">Date</th>
+                              <th style="width:50px;"></th>
+                            </tr>
+                          </thead>
+                          <tbody class="list">
+                            <tr class=" v-middle" data-id="6">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="6">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">6</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-danger-lt"> B </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> Bexam </a>
+                                <div class="item-mail text-muted h-1x"> White Paper review </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 100 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge  bg-warning"> In Progress </span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">1 Week left</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <a class="dropdown-item"> Participate </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class=" v-middle" data-id="7">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="7">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">7</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-primary-lt"> Z </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> Zilla </a>
+                                <div class="item-mail text-muted h-1x"> One Pager review </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 510 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge  bg-success  "> Run</span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">3 days left</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <a class="dropdown-item"> Participate </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class=" v-middle" data-id="1">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="1">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">1</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-primary-lt"> E </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> EthicHub </a>
+                                <div class="item-mail text-muted h-1x"> Idea Evaluation </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 50 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge  bg-success  "> Run </span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">15 minutes left</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <a class="dropdown-item"> Decline </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class=" v-middle" data-id="2">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="2">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">2</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-primary-lt"> M </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> Mobilum </a>
+                                <div class="item-mail text-muted h-1x"> Video review </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 30 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge    bg-secondary"> Closed </span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">45 minutes ago</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class=" v-middle" data-id="4">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="4">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">4</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-success-lt"> I </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> Indorse </a>
+                                <div class="item-mail text-muted h-1x"> Technical Architecture review </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 300 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge    bg-secondary"> Closed </span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">2 hours ago</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class=" v-middle" data-id="8">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="8">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">8</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-success-lt"> A </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> Academy </a>
+                                <div class="item-mail text-muted h-1x"> Road Map review </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 110 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge  bg-success  "> Run </span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">5 days left</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <a class="dropdown-item"> Decline </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class=" v-middle" data-id="9">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="9">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">9</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-info-lt"> T </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> Tutellus </a>
+                                <div class="item-mail text-muted h-1x"> Platform Beta testing </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 340 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge  bg-warning  "> In Progress </span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">2 days left</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <a class="dropdown-item"> Participate </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class=" v-middle" data-id="3">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="3">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">3</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-info-lt"> B </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> Bundle </a>
+                                <div class="item-mail text-muted h-1x"> White Paper review </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 110 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge   bg-primary "> Paid </span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">1 hour ago</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class=" v-middle" data-id="5">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="5">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">5</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-warning-lt"> R </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> RSK </a>
+                                <div class="item-mail text-muted h-1x"> Pitch review and feedback </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 150 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge  bg-success  "> Run </span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">3 days left</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <a class="dropdown-item"> Decline </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr class=" v-middle" data-id="10">
+                              <td>
+                                <label class="ui-check m-0 ">
+                                  <input type="checkbox" name="id" value="10">
+                                  <i></i>
+                                </label>
+                              </td>
+                              <td>
+                                <small class="text-muted">10</small>
+                              </td>
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-warning-lt"> H </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <a href="#" class="item-company ajax h-1x"> Hacken </a>
+                                <div class="item-mail text-muted h-1x"> Progress review and feedback </div>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 50 </span>
+                              </td>
+                              <td>
+                                <span class="item-badge badge  bg-warning  "> In Progress </span>
+                              </td>
+                              <td class="no-wrap">
+                                <div class="item-date text-muted text-sm d-none d-md-block">3 days left</div>
+                              </td>
+                              <td>
+                                <div class="item-action dropdown">
+                                  <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                                  <div class="dropdown-menu dropdown-menu-right bg-primary" role="menu">
+                                    <a class="dropdown-item" href="#"> See detail </a>
+                                    <a class="dropdown-item"> Participate </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item"> Delete from the list </a>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="d-flex">
+                        <ul class="pagination">
+                          <li class="page-item disabled">
+                            <a class="page-link" href="#" aria-label="Previous">
+                              <span aria-hidden="true">«</span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                          </li>
+                          <li class="page-item active">
+                            <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link" href="#">4</a></li>
+                          <li class="page-item"><a class="page-link" href="#">5</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                              <span aria-hidden="true">»</span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </li>
+                        </ul>
+                        <small class="text-muted py-2 mx-2">Total <span id="count">7</span> items</small>
+                      </div>
+                    </div>
+                    <!-- .modal -->
+                    <!-- / .modal -->
+                  </div>
+                </div>
+                <!--Tab 2 Wallet-->
+                <div class="tab-pane fade" id="tab_2">
+                  <a class="btn btn-primary  m-3" href="#">Integrate Blox</a>
+                  <div class="card" data-plugin="chartjs">
+                    <div class="card-header"> Overall Tracking</div>
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="pb-4">
+                          <small class="text-muted">Change</small>
+                          <div>
+                            <span class="text-md">95</span>
+                            <i class="i-con i-con-trending-up text-success"><i></i></i>
+                            <span class="text-muted">3% up</span>
+                          </div>
+                        </div>
+                        <div class="pb-4 mx-3">
+                          <small class="text-muted">Profit/Loss</small>
+                          <div>
+                            <span class="text-md">$23,000</span>
+                            <i class="i-con i-con-trending-down text-danger"><i></i></i>
+                            <span class="text-muted">-5% down</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="height: 160px">
+                        <canvas id="chart-line-9"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                  <h5 class="m-3" contenteditable="true">Balances</h5>
+                  <div>
+                    <div id="invoice-list" data-plugin="invoice">
+                      <div class="toolbar ">
+                        <button class="btn btn-sm btn-white i-con-h-a sort hide" data-sort="item-title" data-toggle="tooltip" title="Sort">
+                          <i class="i-con i-con-sort text-muted"><i></i></i>
+                        </button>
+                      </div>
+                      <div class="table-responsive">
+                        <table class="table table-theme table-row v-middle">
+                          <thead>
+                            <tr>
+                              <th class="text-muted sort sortable" data-sort="item-company" style="width:60px;">Token</th>
+                              <th></th>
+                              <th class="text-muted sort sortable" data-sort="item-amount" style="width:120px;">Units</th>
+                              <th class="text-muted sort sortable" data-sort="item-badge" style="width:120px;">Price($), 24H Change</th>
+                              <th class="text-muted sort sortable" data-sort="item-badge" style="width:120px;">Balance ($), 24H P/L</th>
+                              <th class="text-muted sort sortable" data-sort="item-badge" style="width:120px;">24H Volume</th>
+                            </tr>
+                          </thead>
+                          <tbody class="list">
+                            <tr class=" v-middle" data-id="6">
+                              <td>
+                                <a href="#">
+                                  <span class="w-40 r avatar circle bg-danger-lt"> B </span>
+                                </a>
+                              </td>
+                              <td class="flex">
+                                <span class="item-text text-sm "> Bitcoin </span>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm "> 0.500000 </span>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm"> $6,335.14 <span class="item-amount text-danger"> -1.87% </span> </span>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm"> $3,167.57 <span class="item-amount text-danger"> -$ 59.2336 </span> </span>
+                              </td>
+                              <td>
+                                <span class="item-amount text-sm"> $4,242,589,551.71 </span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <!-- .modal -->
+                    <!-- / .modal -->
+                  </div>
+                </div>
+                <!--Tab 3 Posts-->
+                <div class="tab-pane fade" id="tab_3">
                   <div class="row row-md">
                     <div class="col-md-6 masonry-item">
                       <div class="card" id="feed-1">
@@ -980,7 +1610,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="tab_2">
+                <!--Tab 4 Activity-->
+                <div class="tab-pane fade" id="tab_4">
                   <div class="card p-4">
                     <div class="timeline animates animates-fadeInUp">
                       <div class="tl-item  active">
@@ -1066,7 +1697,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="tab_3">
+                <!--Tab 5 Friends-->
+                <div class="tab-pane fade" id="tab_5">
                   <div class="card p-4">
                     <div class="list list-row row">
                       <div class="list-item col-sm-6 no-border" data-id="15">
@@ -1140,7 +1772,7 @@
                           <a href="#">
                             <span class="w-40 avatar circle bg-primary-lt">
                               <span class="avatar-status off b-white avatar-right"></span>
-                              <img src="../assets/img/a2.jpg" alt=".">
+                              <img src="../assets/img/a.jpg" alt=".">
                             </span>
                           </a>
                         </div>
@@ -1178,7 +1810,8 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="tab_4">
+                <!--Tab 6 Profile-->
+                <div class="tab-pane fade" id="tab_6">
                   <div class="card">
                     <div class="px-2">
                       <div class="py-3">
@@ -1434,7 +2067,7 @@
   <!-- theme -->
   <script src="../assets/js/theme.js"></script>
   <!-- endbuild -->
-  
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
