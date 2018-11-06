@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap | Agile - Bootstrap 4 Web Application</title>
+  <meta name="description" content="Responsive, Bootstrap, BS4">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- style -->
+  <!-- build:css ../assets/css/site.min.css -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/i-con.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/theme.css" type="text/css">
+  <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+  <!-- endbuild -->
+</head>
+
+<body class="layout-column  pace-done">
+  <div class="pace  pace-inactive">
+    <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+      <div class="pace-progress-inner"></div>
+    </div>
+    <div class="pace-activity"></div>
+  </div>
+  <header id="header" class="page-header bg-white box-shadow animate fadeInDown"></header>
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar19">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar19"> <a href="#" class="navbar-brand d-none d-md-block">
+          <i class="fa d-inline fa-lg fa-stop-circle-o"></i>
+        </a>
+        <a href="../index.html" class="text-md m-0 text-white">StartupToken docs 1.0.0</a>
+        <ul class="nav navbar-nav mx-auto">
+          <li class="nav-item text-light my-2"> <a class="nav-link" href="start.html">Get started</a> </li>
+          <li class="nav-item my-2"> <a class="nav-link" href="ia.html">Information Architecture</a> </li>
+          <li class="nav-item my-2"> <a class="nav-link" href="personas.html">Personas</a> </li>
+          <li class="nav-item my-2"> <a class="nav-link" href="rolemodel.html">Role Model</a> </li>
+          <li class="nav-item dropdown my-2">
+            <div class="btn-group"> <button class="btn btn-primary dropdown-toggle text-muted" data-toggle="dropdown"> Journeys </button>
+              <div class="dropdown-menu"> <a class="dropdown-item" href="journey.reg_signin.html">Reg_SignIn</a>
+                <div class="dropdown-divider"></div> <a class="dropdown-item" href="journey.founder.html">Founder Journey</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item my-2"> <a class="nav-link" href="changelog.html">Changelog</a> </li>
+          <li class="nav-item my-2"> <a class="nav-link" href="extra.html">UI Kit</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="main" class="layout-row flex">
+    <!-- ############ LAYOUT START-->
+    <!-- ############ Aside START-->
+    <div id="aside" class="page-sidenav no-shrink  nav-expand  animate fadeInLeft fade" aria-hidden="true">
+      <div class="sidenav h-100 modal-dialog bg-white box-shadow">
+        <!-- sidenav top -->
+        <!-- Flex nav content -->
+        <div class="flex scrollable hover">
+          <div class="nav-border b-primary" data-nav="">
+            <ul class="nav ">
+              <li class="nav-header hidden-folded">
+                <span>UI elements</span>
+              </li>
+              <li class="active">
+                <a href="#" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-layer"><i></i></i>
+                  </span>
+                  <span class="nav-text">Components</span>
+                  <span class="nav-caret"></span>
+                </a>
+                <ul class="nav-sub">
+                  <li>
+                    <a href="ui.alert.html" class="">
+                      <span class="nav-text">Alert</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.badge.html" class="">
+                      <span class="nav-text">Badge</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.button.html" class="">
+                      <span class="nav-text">Button</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.card.html" class="">
+                      <span class="nav-text">Card</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.carousel.html" class="">
+                      <span class="nav-text">Carousel</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.color.html" class="">
+                      <span class="nav-text">Color</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.dropdown.html" class="">
+                      <span class="nav-text">Dropdown</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.grid.html" class="">
+                      <span class="nav-text">Grid</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.icon.html" class="">
+                      <span class="nav-text">Icon</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.list.html" class="">
+                      <span class="nav-text">List</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.modal.html" class="">
+                      <span class="nav-text">Modal</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.navbar.html" class="">
+                      <span class="nav-text">Navbar</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.sidenav.html" class="">
+                      <span class="nav-text">Sidenav</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.timeline.html" class="">
+                      <span class="nav-text">Timeline</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.tab.html" class="">
+                      <span class="nav-text">Tab &amp; Collpase</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.tooltip.html" class="">
+                      <span class="nav-text">Tooltip &amp; Popover</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="">
+                <a href="#" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-grid"><i></i></i>
+                  </span>
+                  <span class="nav-text">Plugins</span>
+                  <span class="nav-badge">
+                    <b class="badge badge-sm badge-pill ">5</b>
+                  </span>
+                  <span class="nav-caret"></span>
+                </a>
+                <ul class="nav-sub">
+                  <li>
+                    <a href="ui.scroll.html" class="">
+                      <span class="nav-text">Infinite Scroll</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.sortable.html" class="">
+                      <span class="nav-text">Sortable</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.scrollreveal.html" class="">
+                      <span class="nav-text">Scroll Reveal</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="ui.map.html" class="">
+                      <span class="nav-text">Vector Map</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="">
+                <a href="#" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-circle"><i></i></i>
+                  </span>
+                  <span class="nav-text">Form</span>
+                  <span class="nav-caret"></span>
+                </a>
+                <ul class="nav-sub">
+                  <li>
+                    <a href="form.element.html" class="">
+                      <span class="nav-text">Form Element</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.layout.html" class="">
+                      <span class="nav-text">Form Layout</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.validation.html" class="">
+                      <span class="nav-text">Form Validation</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.editor.html" class="">
+                      <span class="nav-text">Editor</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.datepicker.html" class="">
+                      <span class="nav-text">Datepicker</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.select.html" class="">
+                      <span class="nav-text">Select</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.wizard.html" class="">
+                      <span class="nav-text">Wizard</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="form.dropzone.html" class="">
+                      <span class="nav-text">File Upload</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="">
+                <a href="#" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-table"><i></i></i>
+                  </span>
+                  <span class="nav-text">Tables</span>
+                  <span class="nav-caret"></span>
+                </a>
+                <ul class="nav-sub">
+                  <li>
+                    <a href="table.style.html" class="">
+                      <span class="nav-text">Style</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="table.bootstrap.html" class="">
+                      <span class="nav-text">Bootstrap Table</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="table.datatables.html" class="">
+                      <span class="nav-text">Datatables</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="">
+                <a href="#" class="i-con-h-a">
+                  <span class="nav-icon">
+                    <i class="i-con i-con-pie-chart"><i></i></i>
+                  </span>
+                  <span class="nav-text">Charts</span>
+                  <span class="nav-caret"></span>
+                </a>
+                <ul class="nav-sub">
+                  <li>
+                    <a href="chart.simple.html" class="">
+                      <span class="nav-text">Simple</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="chart.chartjs.html" class="">
+                      <span class="nav-text">Chartjs</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- sidenav bottom -->
+        <div class="no-shrink ">
+          <div class="text-sm p-3 b-t">
+            <div class="hidden-folded text-sm">
+              <div class="text-muted"><small class="text-muted">© Copyright 2018</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ############ Aside END-->
+    <!-- ############ Content START-->
+    <div id="content" class="flex ">
+      <!-- ############ Main START-->
+      <div class="page-container" id="page-container">
+        <div class="page-title padding pb-0 ">
+          <h2 class="text-md mb-0">Bootstrap</h2>
+        </div>
+        <div class="padding">
+          <div id="toolbar">
+            <button id="trash" class="btn btn-icon btn-white i-con-h-a mr-1"><i class="i-con i-con-trash text-muted"><i></i></i></button>
+          </div>
+          <table class="table table-theme v-middle" data-plugin="bootstrapTable" id="table" data-toolbar="#toolbar" data-search="true" data-search-align="left" data-show-columns="true" data-show-export="true" data-detail-view="false" data-mobile-responsive="true" data-pagination="true" data-page-list="[10, 25, 50, 100, ALL]">
+            <thead>
+              <tr>
+                <th data-checkbox="true"></th>
+                <th data-sortable="true" data-field="id">ID</th>
+                <th data-sortable="true">Owner</th>
+                <th data-sortable="true">Project</th>
+                <th data-sortable="true">Tasks</th>
+                <th data-sortable="true">Finish</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class=" " data-id="2">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="2">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">2</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-primary-lt">
+                      <img src="../assets/img/a2.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Mike</a>
+                  <div class="item-except text-muted h-1x">
+                    <a href="#">@James</a> Hey bro, I need to work on a new fashion website, Can you point me to a good design website for free stock img? </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 10 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 4 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="3">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="3">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">3</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-info-lt">
+                      <img src="../assets/img/a3.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">William McCoy</a>
+                  <div class="item-except text-muted h-1x"> Silence is likely the most important factor in providing focus and improving workflow efficiently. Unfortunately it isn't always respected. </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 10 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 50 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="7">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="7">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">7</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-primary-lt">
+                      <img src="../assets/img/a7.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Louis Little</a>
+                  <div class="item-except text-muted h-1x"> I'm a kind of hipster when it comes to browsers, as I do not like stable releases. They are pretty much boring haha. </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 510 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 5 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="4">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="4">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">4</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-success-lt">
+                      <img src="../assets/img/a4.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Gorge Garcia</a>
+                  <div class="item-except text-muted h-1x"> Highly scalable localization management service designed for translating software products, such as apps, sites and games. </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 20 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 7 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="6">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="6">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">6</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-danger-lt">
+                      <img src="../assets/img/a6.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Brittany Ryan</a>
+                  <div class="item-except text-muted h-1x"> This Friday, invest a few hours contributing to the software you use and love. </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 220 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 5 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="5">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="5">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">5</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-warning-lt">
+                      <img src="../assets/img/a5.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Scott Ortega</a>
+                  <div class="item-except text-muted h-1x"> A light-weight, no-dependency, vanilla JavaScript engine to drive the user's focus across the page </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 100 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 3 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="9">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="9">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">9</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-info-lt">
+                      <img src="../assets/img/a9.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Howard Morgan</a>
+                  <div class="item-except text-muted h-1x"> What are you doing today? <a href="#">@FashionDesign</a> Oh here, check out the new trailer for <a href="#">Man of Steel</a>
+                  </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 2310 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 20 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="15">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="15">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">15</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-success-lt"> G </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Gary Woods</a>
+                  <div class="item-except text-muted h-1x"> You don’t have to switch tools to review code, share input on projects, or open up the conversation to the rest of your team. </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 240 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 50 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="11">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="11">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">11</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-info-lt"> K </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Kenneth Pierce</a>
+                  <div class="item-except text-muted h-1x"> @DataAPI Implemented new API for transation data from client to server. </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 240 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 50 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="8">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="8">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">8</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-success-lt">
+                      <img src="../assets/img/a8.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">John Keller</a>
+                  <div class="item-except text-muted h-1x"> It's been a Javascript kind of day... </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 220 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 4 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="12">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="12">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">12</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-info-lt"> D </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">David McCoy</a>
+                  <div class="item-except text-muted h-1x"> Your teammates shouldn’t have to think too hard about what a thumbs up emoji means. </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 14 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 20 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="1">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="1">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">1</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-primary-lt">
+                      <img src="../assets/img/a1.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Steven Owens</a>
+                  <div class="item-except text-muted h-1x"> I'm working on a really amazing project right now, <a href="#">@samsoe</a> said so, <a href="#">Here is a little tease</a>
+                  </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 210 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 5 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="13">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="13">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">13</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-primary-lt"> J </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Joe Ortiz</a>
+                  <div class="item-except text-muted h-1x"> A well-timed app can complement your workflow and help your team accomplish more </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 14 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 20 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="14">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="14">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">14</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-warning-lt"> L </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Lori Kelley</a>
+                  <div class="item-except text-muted h-1x"> We’re building developer tools, too. We hope they help you work on projects of any size and share ideas with your friends and coworkers </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 14 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 20 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr class=" " data-id="10">
+                <td>
+                  <label class="ui-check m-0 ">
+                    <input type="checkbox" name="id" value="10">
+                    <i></i>
+                  </label>
+                </td>
+                <td>
+                  <small class="text-muted">10</small>
+                </td>
+                <td>
+                  <a href="#">
+                    <span class="w-32 avatar circle bg-warning-lt">
+                      <img src="../assets/img/a10.jpg" alt=".">
+                    </span>
+                  </a>
+                </td>
+                <td class="flex">
+                  <a href="#" class="item-author ">Gerald Hansen</a>
+                  <div class="item-except text-muted h-1x"> If you’re on the other side of a review, you can request reviews from your peers to get the exact exceptback you need. </div>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 240 </span>
+                </td>
+                <td>
+                  <span class="item-amount text-sm "> 50 </span>
+                </td>
+                <td>
+                  <div class="item-action dropdown">
+                    <a href="#" data-toggle="dropdown" class="text-muted"><i class="i-con i-con-more"><i></i></i></a>
+                    <div class="dropdown-menu dropdown-menu-right bg-dark" role="menu">
+                      <a class="dropdown-item" href="#"> See detail </a>
+                      <a class="dropdown-item"> Download </a>
+                      <a class="dropdown-item"> Edit </a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item"> Delete item </a>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- ############ Main END-->
+    </div>
+    <!-- ############ Content END-->
+    <!-- ############ LAYOUT END-->
+  </div>
+  <!-- build:js ../assets/js/site.min.js -->
+  <!-- jQuery -->
+  <script src="../libs/jquery/dist/jquery.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="../libs/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- ajax page -->
+  <script src="../libs/pace-progress/pace.min.js"></script>
+  <script src="../libs/pjax/pjax.js"></script>
+  <script src="../assets/js/ajax.js"></script>
+  <!-- lazyload plugin -->
+  <script src="../assets/js/lazyload.config.js"></script>
+  <script src="../assets/js/lazyload.js"></script>
+  <script src="../assets/js/plugin.js"></script>
+  <!-- theme -->
+  <script src="../assets/js/theme.js"></script>
+  <!-- endbuild -->
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
